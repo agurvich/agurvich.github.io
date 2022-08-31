@@ -16,3 +16,11 @@
 #_navbar { display: none }
 
 .avatar { width:16rem; height:16rem}
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid .col {
+  flex: 0;
+}
