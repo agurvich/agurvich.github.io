@@ -73,7 +73,11 @@ menu:
 copyright:             © Alex Gurvich, 2022. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+#permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /:categories/:title/
+
+## added by ABG: true=show the long text excerpt on my homebrewed grid layout
+long_excerpt: false
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
