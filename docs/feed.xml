@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://alexbgurvi.ch/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alexbgurvi.ch/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-08-31T03:18:05-05:00</updated><id>https://alexbgurvi.ch/feed.xml</id><title type="html">Alex Gurvich</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://alexbgurvi.ch/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alexbgurvi.ch/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-09-01T16:00:37-05:00</updated><id>https://alexbgurvi.ch/feed.xml</id><title type="html">Alex Gurvich</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><entry><title type="html">Astronomy on Tap: Chicago</title><link href="https://alexbgurvi.ch/outreach/astronomy-on-tap/" rel="alternate" type="text/html" title="Astronomy on Tap: Chicago" /><published>2022-08-31T00:00:00-05:00</published><updated>2022-08-31T03:14:06-05:00</updated><id>https://alexbgurvi.ch/outreach/astronomy-on-tap</id><content type="html" xml:base="https://alexbgurvi.ch/outreach/astronomy-on-tap/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
 <blockquote>
@@ -8,6 +8,8 @@
 <p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
 
 <h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
+
+<p>hello, <abbr title="star formation rate">SFR</abbr>, hello,sfr</p>
 
 <p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
 

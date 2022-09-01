@@ -31,7 +31,8 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               NSF Graduate Fellow @ Northwestern<br>galaxy formation & data visualization
+tagline:               NSF Graduate Fellow @ Northwestern
+#<br>galaxy formation & data visualization
 
 # A list of keywords for your blog
 keywords:              []
@@ -51,12 +52,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Research
+  - title:             galaxy formation
     url:               /research/
-  - title:             Visualization
+  - title:             data visualization
     url:               /visualization/
-  - title:             Outreach
+  - title:             public outreach
     url:               /outreach/
+  - title:             accessibility
+    url:               /accessibility/
   - title:             CV
     url:               https://alexbgurvi.ch/Current_CV.pdf
 
