@@ -24,3 +24,25 @@
 .flex-grid .col {
   flex: 0;
 }
+
+.sidebar-nav{
+  margin-top:35px;
+}
+
+.sidebar-social{
+  margin-top:-30px;
+  margin-bottom:-20px;
+}
+
+.sidebar-social>ul>li>a {
+  border-bottom:0px;
+  color:rgba(255,255,255,0.5)
+}
+
+.sidebar-social>ul>li>a:hover {
+  color:white
+}
+
+.sidebar-about>a.sidebar-title::after {
+  width:18rem
+}
