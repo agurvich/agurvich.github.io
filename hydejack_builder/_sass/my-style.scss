@@ -19,10 +19,51 @@
 
 .flex-grid {
   display: flex;
-  justify-content: space-between;
+  flex-flow: row wrap;
 }
+
 .flex-grid .col {
-  flex: 0;
+  display: inline-block;
+  flex: 1 0 300px;
+  margin: 0 1rem 1.125rem;
+  max-width:317px;
+  max-height:510px;
+}
+
+.flex-grid .col:hover{
+  transform:translateY(-5px);
+}
+
+.home-grid-content{
+  border-radius: 5px;
+  height:220px;
+  box-shadow: rgba(0,0,0,0.2) 0.125rem 0.125rem 1rem;
+  overflow:hidden;
+  background-color:rgba(0,0,0,0.1);
+  background-clip:content-box;
+}
+
+.grid-content{
+  border-radius: 5px;
+  height:280px;
+  box-shadow: rgba(0,0,0,0.2) 0.125rem 0.125rem 1rem;
+  overflow:hidden;
+  background-color:rgba(0,0,0,0.1);
+  background-clip:content-box;
+}
+
+#_main{
+  max-width:1200px;
+}
+
+.grid-content .post-title{
+  margin-bottom:0px;
+}
+
+.img-wrapper{
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:0px;
 }
 
 .sidebar-nav{
@@ -45,4 +86,10 @@
 
 .sidebar-about>a.sidebar-title::after {
   width:18rem
+}
+
+.my-footer{
+  position:absolute;
+  width:100%;
+  margin-bottom:0px;
 }
