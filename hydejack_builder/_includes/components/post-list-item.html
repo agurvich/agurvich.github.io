@@ -1,4 +1,35 @@
 {% assign post = include.post %}
-{% assign format = include.format | default:site.data.strings.date_formats.related_post | default:"%d %b %Y" %}
+{% assign format = include.format | default:"fullpage" %}
 
-{% include components/post.html post=page no_link_title=false no_excerpt=false hide_image=page.hide_image hide_description=page.hide_description %}
+{% assign no_link_title    = false    %}
+{% assign no_excerpt       = false       %}
+{% assign hide_image       = page.hide_image       %}
+{% assign hide_description = page.hide_description %}
+
+<article id="post{{ post.id | replace:'/','-' }}" class="page post mb6" role="article">
+  <header>
+    {% assign alt = false %}
+    {% unless hide_image %}{% if post.image %}
+      {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="no-hover no-print-link {% unless post.hide_image %}flip-project{% endunless %}" tabindex="-1">{% endunless %}
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          {% include_cached components/hy-img.html img=post.image alt=post.title width=864 height=486 %}
+        </div>
+      {% unless no_link_title %}</a>{% endunless %}
+      {% assign alt = '' %}
+    {% endif %}{% endunless %}
+    <div style="background-color:rgb(250,250,250); position: relative;top:-5px;padding-bottom:100px"> 
+    <h3 class="post-title flip-project-title" style="padding-left:3px">
+      {% if format == "list_entry"%}
+        <a href="{{ post.url | relative_url }}" class="flip-title">{{ post.title }}</a>
+    </h3>
+      {% else %}
+        <a href="{{ post.slug | relative_url}}" class="flip-title">{{ post.title }}</a>
+    </h3>
+      {% endif %}
+    {% if format == "list_entry"%}
+      <p style="font-size:10pt; padding-left:7px">{{post.description}}</p>
+    {% endif %}
+    </div>
+    
+  </header>
+</article>
