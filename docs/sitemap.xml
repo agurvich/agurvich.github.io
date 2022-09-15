@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://alexbgurvi.ch/accessibility/</loc>
-<lastmod>2022-09-01T15:21:53-05:00</lastmod>
+<loc>https://alexbgurvi.ch/advocacy/</loc>
+<lastmod>2022-09-04T12:48:05-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/outreach/</loc>
@@ -10,11 +10,11 @@
 </url>
 <url>
 <loc>https://alexbgurvi.ch/research/</loc>
-<lastmod>2022-09-01T15:21:53-05:00</lastmod>
+<lastmod>2022-09-02T02:00:18-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/subjects/</loc>
-<lastmod>2022-09-02T01:29:05-05:00</lastmod>
+<lastmod>2022-09-02T02:00:18-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/visualization/</loc>
@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>https://alexbgurvi.ch/subjects/dei/</loc>
-<lastmod>2022-09-02T01:38:49-05:00</lastmod>
+<lastmod>2022-09-02T01:58:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/outreach/astronomy-live/</loc>
@@ -30,14 +30,14 @@
 </url>
 <url>
 <loc>https://alexbgurvi.ch/subjects/outreach/</loc>
-<lastmod>2022-09-02T01:47:20-05:00</lastmod>
+<lastmod>2022-09-02T01:58:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/outreach/adler-planetarium/</loc>
 <lastmod>2022-09-01T21:33:40-05:00</lastmod>
 </url>
 <url>
-<loc>https://alexbgurvi.ch/accessibility/astronomer-evenings/</loc>
+<loc>https://alexbgurvi.ch/advocacy/astronomer-evenings/</loc>
 <lastmod>2022-09-02T01:31:11-05:00</lastmod>
 </url>
 <url>
@@ -46,19 +46,19 @@
 </url>
 <url>
 <loc>https://alexbgurvi.ch/research/vertical-pressure-balance/</loc>
-<lastmod>2022-09-01T21:12:39-05:00</lastmod>
+<lastmod>2022-09-02T01:58:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/subjects/visualization/</loc>
-<lastmod>2022-09-02T01:46:14-05:00</lastmod>
+<lastmod>2022-09-02T01:58:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/visualization/astronomer-evenings/</loc>
-<lastmod>2022-09-01T21:10:04-05:00</lastmod>
+<lastmod>2022-09-02T01:58:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/subjects/research/</loc>
-<lastmod>2022-09-02T01:47:12-05:00</lastmod>
+<lastmod>2022-09-02T01:58:56-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/outreach/astronomy-on-tap/</loc>
@@ -70,7 +70,7 @@
 </url>
 <url>
 <loc>https://alexbgurvi.ch/</loc>
-<lastmod>2022-09-01T16:00:58-05:00</lastmod>
+<lastmod>2022-09-02T02:00:18-05:00</lastmod>
 </url>
 <url>
 <loc>https://alexbgurvi.ch/posts/</loc>
@@ -78,6 +78,10 @@
 </url>
 <url>
 <loc>https://alexbgurvi.ch/2/</loc>
-<lastmod>2022-09-01T16:00:58-05:00</lastmod>
+<lastmod>2022-09-02T02:00:18-05:00</lastmod>
+</url>
+<url>
+<loc>https://alexbgurvi.ch/Current_CV.pdf</loc>
+<lastmod>2022-09-15T18:01:37-05:00</lastmod>
 </url>
 </urlset>

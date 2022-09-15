@@ -17,18 +17,18 @@
       {% unless no_link_title %}</a>{% endunless %}
       {% assign alt = '' %}
     {% endif %}{% endunless %}
-    <div style="background-color:rgb(250,250,250); position: relative;top:-5px;padding-bottom:100px"> 
-    <h3 class="post-title flip-project-title" style="padding-left:3px">
+    <div class="annotation-wrapper" style="background-color:rgb(250,250,250); position: relative;padding-bottom:100px"> 
+      <h3 class="post-title flip-project-title" style="padding-left:3px">
+        {% if format == "list_entry"%}
+          <a href="{{ post.url | relative_url }}" class="flip-title">{{ post.title }}</a>
+      </h3>
+        {% else %}
+          <a href="{{ post.slug | relative_url}}" class="flip-title">{{ post.title }}</a>
+      </h3>
+        {% endif %}
       {% if format == "list_entry"%}
-        <a href="{{ post.url | relative_url }}" class="flip-title">{{ post.title }}</a>
-    </h3>
-      {% else %}
-        <a href="{{ post.slug | relative_url}}" class="flip-title">{{ post.title }}</a>
-    </h3>
+        <p style="font-size:10pt; padding-left:7px">{{post.description}}</p>
       {% endif %}
-    {% if format == "list_entry"%}
-      <p style="font-size:10pt; padding-left:7px">{{post.description}}</p>
-    {% endif %}
     </div>
     
   </header>
