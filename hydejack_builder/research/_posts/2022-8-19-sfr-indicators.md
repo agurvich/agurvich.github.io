@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "CIERA Astronomer Evenings"
+title: SFR Indicators
 description: >
-    CIERA Astronomer Evenings occurs on the last friday of every month
+  <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3664G/abstract">ADS link</a>
+  with Jose
 sitemap: true
 hide_last_modified: true
 image:
-  path:    /assets/img/posts/dearborn/dearborn.jpeg
+  path:    /assets/img/subjects/research/sfr_indicators/bkg_pretty_SFR_maps.png
   srcset:
-    1920w: /assets/img/posts/dearborn/dearborn.jpeg
-    960w: /assets/img/posts/dearborn/dearborn.jpeg
-    480w: /assets/img/posts/dearborn/dearborn.jpeg
+    1920w: /assets/img/subjects/research/sfr_indicators/bkg_pretty_SFR_maps.png
+    960w: /assets/img/subjects/research/sfr_indicators/bkg_pretty_SFR_maps_50.png
+    480w: /assets/img/subjects/research/sfr_indicators/bkg_pretty_SFR_maps_25.png
+    240w: /assets/img/subjects/research/sfr_indicators/bkg_pretty_SFR_maps_125.png
 ---
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

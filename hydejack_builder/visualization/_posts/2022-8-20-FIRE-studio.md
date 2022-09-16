@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Astronomy on Tap: Chicago"
+title: FIRE studio
 description: >
-  Astronomy on Tap is an international outreach organization, I was the leader of the Chicago chapter!
+  a package i wrote for conveniently projecting SPH data
 sitemap: true
 hide_last_modified: true
 image:
-  path:    /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png
+  path:    /assets/img/subjects/visualization/firestudio/bkg_firestudio.png
   srcset:
-    1920w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png
-    960w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster_50.png
-    480w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster_25.png
-    240w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster_125.png
+    1920w: /assets/img/subjects/visualization/firestudio/bkg_firestudio.png
+    960w: /assets/img/subjects/visualization/firestudio/bkg_firestudio_50.png
+    480w: /assets/img/subjects/visualization/firestudio/bkg_firestudio_25.png
+    240w: /assets/img/subjects/visualization/firestudio/bkg_firestudio_125.png
 ---
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -21,9 +21,6 @@ Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, na
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 ## Inline HTML elements
-
-*[SFR]: star formation rate
-hello, SFR, hello,sfr
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 

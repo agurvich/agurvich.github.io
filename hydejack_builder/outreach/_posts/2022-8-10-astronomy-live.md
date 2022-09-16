@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "CIERA Astronomer Evenings"
+title: "Astronomy LIVE"
 description: >
-    CIERA Astronomer Evenings occurs on the last friday of every month
+  Astronomy LIVE was our livestream trivia thing, we're on Youtube!
 sitemap: true
 hide_last_modified: true
 image:
-  path:    /assets/img/posts/dearborn/dearborn.jpeg
+  path:    /assets/img/subjects/outreach/astronomy_live/bkg_astro_live_logo.png
   srcset:
-    1920w: /assets/img/posts/dearborn/dearborn.jpeg
-    960w: /assets/img/posts/dearborn/dearborn.jpeg
-    480w: /assets/img/posts/dearborn/dearborn.jpeg
+    1920w: /assets/img/subjects/outreach/astronomy_live/bkg_astro_live_logo.png
+    960w: /assets/img/subjects/outreach/astronomy_live/bkg_astro_live_logo_50.png
+    480w: /assets/img/subjects/outreach/astronomy_live/bkg_astro_live_logo_25.png
+    240w: /assets/img/subjects/outreach/astronomy_live/bkg_astro_live_logo_125.png
 ---
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -20,6 +21,9 @@ Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, na
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 ## Inline HTML elements
+
+*[SFR]: star formation rate
+hello, SFR, hello,sfr
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 

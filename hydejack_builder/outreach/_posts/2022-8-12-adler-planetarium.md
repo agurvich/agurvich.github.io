@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Astronomy on Tap: Chicago"
+title: "Adler Planetarium"
 description: >
-  Astronomy on Tap is an international outreach organization, I was the leader of the Chicago chapter!
+  Astronomy conversations and visiting researcher
 sitemap: true
 hide_last_modified: true
 image:
-  path:    /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png
+  path:    /assets/img/subjects/outreach/adler_planetarium/bkg_adler_dome.png
   srcset:
-    1920w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png
-    960w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster_50.png
-    480w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster_25.png
-    240w: /assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster_125.png
+    1920w: /assets/img/subjects/outreach/adler_planetarium/bkg_adler_dome.png
+    960w: /assets/img/subjects/outreach/adler_planetarium/bkg_adler_dome_50.png
+    480w: /assets/img/subjects/outreach/adler_planetarium/bkg_adler_dome_25.png
+    240w: /assets/img/subjects/outreach/adler_planetarium/bkg_adler_dome_125.png
 ---
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
