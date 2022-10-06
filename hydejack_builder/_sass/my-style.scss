@@ -49,13 +49,12 @@
 
 .home-grid-content{
   border-radius: 5px;
-  height:220px;
-  width:400px;
+  height:210px;
   box-shadow: rgba(0,0,0,0.2) 0.125rem 0.125rem 1rem;
   overflow:hidden;
   background-color:rgba(0,0,0,0.1);
   background-clip:content-box;
-  max-width:80%;
+  max-width:300px
 }
 
 .home-grid-content .annotation-wrapper{
@@ -73,6 +72,7 @@
   overflow:hidden;
   background-color:rgba(0,0,0,0.1);
   background-clip:content-box;
+  max-width:300px
 }
 
 #_main{

@@ -1,1 +1,1 @@
-Sitemap: https://alexbgurvi.ch/sitemap.xml
+Sitemap: https://alexbgurvi.ch/docs/sitemap.xml

@@ -9,9 +9,9 @@ image:
   path:    /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps.png
   srcset:
     1920w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps.png
-    960w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps_50.png
-    480w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps_25.png
-    240w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps_125.png
+    #960w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps_50.png
+    #480w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps_25.png
+    #240w: /assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps_125.png
 ---
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
