@@ -35,21 +35,21 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta property="og:title" content="Firefly" />
 <meta name="author" content="Alex Gurvich" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="a 3d interactive web-based particle visualization software" />
-<meta property="og:description" content="a 3d interactive web-based particle visualization software" />
+<meta name="description" content="In Firefly, users can explore their data by panning, zooming, rotating, filtering, and colormapping just by visiting a URL." />
+<meta property="og:description" content="In Firefly, users can explore their data by panning, zooming, rotating, filtering, and colormapping just by visiting a URL." />
 <link rel="canonical" href="https://alexbgurvi.ch/docs/visualization/firefly/" />
 <meta property="og:url" content="https://alexbgurvi.ch/docs/visualization/firefly/" />
 <meta property="og:site_name" content="Alex Gurvich" />
-<meta property="og:image" content="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/bkg_firefly_logo.png" />
+<meta property="og:image" content="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/four_view_banner.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-08-21T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/bkg_firefly_logo.png" />
+<meta property="twitter:image" content="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/four_view_banner.png" />
 <meta property="twitter:title" content="Firefly" />
 <meta name="twitter:site" content="@alexbgurvich" />
 <meta name="twitter:creator" content="@alexbgurvich" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Alex Gurvich"},"dateModified":"2022-10-05T19:21:14-05:00","datePublished":"2022-08-21T00:00:00-05:00","description":"a 3d interactive web-based particle visualization software","headline":"Firefly","image":{"srcset":{"1920w":"/assets/img/subjects/visualization/firefly/bkg_firefly_logo.png"},"url":"https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/bkg_firefly_logo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://alexbgurvi.ch/docs/visualization/firefly/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://alexbgurvi.ch/docs/assets/img/logo.png"},"name":"Alex Gurvich"},"url":"https://alexbgurvi.ch/docs/visualization/firefly/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Alex Gurvich"},"dateModified":"2022-11-17T13:30:06-06:00","datePublished":"2022-08-21T00:00:00-05:00","description":"In Firefly, users can explore their data by panning, zooming, rotating, filtering, and colormapping just by visiting a URL.","headline":"Firefly","image":{"srcset":{"1920w":"/assets/img/subjects/visualization/firefly/four_view_banner.png"},"url":"https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/four_view_banner.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://alexbgurvi.ch/docs/visualization/firefly/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://alexbgurvi.ch/docs/assets/img/logo.png"},"name":"Alex Gurvich"},"url":"https://alexbgurvi.ch/docs/visualization/firefly/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -112,7 +112,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/docs/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/docs/',
-    INDEX_KEY: 'index--2022-11-17T13:28:51-06:00',
+    INDEX_KEY: 'index--2022-11-17T14:04:31-06:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -234,8 +234,8 @@ html{--accent-color: rgb(0,125,0);--accent-color-faded: rgba(0,125,0,0.5);--acce
 
 <img
   
-    src="/docs/assets/img/subjects/visualization/firefly/bkg_firefly_logo.png"
-    srcset="/docs/assets/img/subjects/visualization/firefly/bkg_firefly_logo.png 1920w"
+    src="/docs/assets/img/subjects/visualization/firefly/four_view_banner.png"
+    srcset="/docs/assets/img/subjects/visualization/firefly/four_view_banner.png 1920w"
     
   
   alt="Firefly"
@@ -257,7 +257,7 @@ html{--accent-color: rgb(0,125,0);--accent-color-faded: rgba(0,125,0,0.5);--acce
 
   
     <p class="note-sm" >
-      a 3d interactive web-based particle visualization software
+      In Firefly, users can explore their data by panning, zooming, rotating, filtering, and colormapping just by visiting a URL.
 
     </p>
   
@@ -266,9 +266,34 @@ html{--accent-color: rgb(0,125,0);--accent-color-faded: rgba(0,125,0,0.5);--acce
   </header>
 
   
-    <p>I am working to adapt versions of the browser-based simulation visualization tool Firefly I co-develop along with Aaron Geller. Firefly is designed to display any three-dimensional dataset. Data is formatted through a simple and easy to use Python interface that allows for powerful control of both the underlying dataset and how it is displayed.</p>
+    <p>Firefly is a browser-based 3D interactive data visualization software for particle-like data. 
+I co-created it in partnership with Aaron Geller, a research faculty member (and dataviz guru) at Northwestern’s Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA) where I am currently a graduate student.</p>
+<figure style="width:50%; float:right; height:auto; margin:10px">
+  <img src="/docs/assets/img/subjects/visualization/firefly/hot_accretion.png" />
+  <figcaption>
+    hot gas raining down onto a cold disk in a redshift z=0 Milky Way-mass galaxy, visualized with Firefly using velocity vectors, a temperature colormap, and temperature &amp; density filters. 
+  </figcaption>
+</figure>
+<p>Firefly visualizations, once built, can be explored by simply visiting a URL without any prior installation. 
+Making a new Firefly visualization is simple with the Python Data Pre-processor (PDPP) we provide. 
+Though Firefly has mostly been used for visualizing simulations of galaxy formation (my research focus),  if you can load your data into three numpy arrays you can visualize it in Firefly!
+Because Firefly runs in a web-browser, it automatically works on (almost) any operating system or device (including smartphones and iPads). 
+Firefly also works in VR, combining stereoscopic views with gyroscopic controls to allow users to walk through their data in the real world using a Google cardboard.</p>
 
-<p>Firefly’s flexible design allows it to be used with VR headsets and an iPad controller creating the potential for exciting and impactful museum exhibits. In the past, members of the galaxy formation group have brought Firefly to the SVL in order to showcase our research and get feedback on features for the app. You can try an online version with a sample dataset here. If you have any feedback, discover any bugs, or just want to say how much you enjoy playing with it shoot me an email and let me know!</p>
+<figure style="width:50%; float:left; height:auto; margin:10px">
+  <img src="/docs/assets/img/subjects/visualization/firefly/gaia_lane.png" />
+  <figcaption>
+    Gaia DR3 in Firefly where each point is a real star colored by its observed BP-RP color. 
+    <a target="_blank" href="http://firefly.rcs.northwestern.edu/">
+      Available here.
+    </a>
+  </figcaption>
+</figure>
+<p>Firefly can visualize up to tens-of-millions of particles at once, but for even larger datasets (we’ve tested up to one billion particles) users can take advantage of our progressive rendering scheme which only loads data which lies in the camera’s field of view. 
+This is accomplished using a novel data indexing scheme in the PDPP that links the data’s position in realspace to its location on disk using an octree. 
+Using this method, we have visualized all of the stars in Gaia DR3, just over one billion stars.</p>
+
+<p>Demos, documentation, and the code paper are all available on the <a href="https://alexbgurvi.ch/Firefly">code’s homepage</a>.</p>
 
   
 </article>
