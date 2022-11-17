@@ -2,7 +2,8 @@
 layout: post
 title: FIRE studio
 description: >
-  a package i wrote for conveniently projecting SPH data
+  FIRE Studio is a package I wrote to allow anyone to make publication quality images of simulation data. 
+  Power to the people!
 sitemap: true
 hide_last_modified: true
 image:
@@ -14,107 +15,15 @@ image:
     #240w: /assets/img/subjects/visualization/firestudio/bkg_firestudio_125.png
 ---
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+FIRE Studio was inspired by a student I worked with who took a screenshot of figure from a paper and put it on their poster because they wanted a pretty image of a simulation they were studying. 
+I thought to myself, this isn't right. 
+The power to visualize images should belong to everyone and so I set out to write a convenient and sensible API for making publication quality images that you could plot stuff on top of. 
+Thus, FIRE Studio was born. 
+FIRE Studio is named as such because I love movies (science ones but also like, actual movies) and I wanted users to feel like they were in the editing booth turning knobs to make the most fantastic version of their figure/movie (now I mean the science kind) they could.
+There are cameras, and "productions" (pre-built visualization scripts that people can riff off of) and utilities for time interpolating data using a novel slope-limiting scheme to avoid spurious artifacts when making high framerate movies (thanks Phil for the inspiration!).
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+FIRE Studio has a couple of different "modes" (or studios, as I call them).
+Users can make column density projections, "two color" projections where the hue is set by one quantity like temperature and the brightness is set by another like density, "three color" projections where different quantities (usually mass in different temperature bins) are projected and colormapped independently and then the R, G, and B channels are blended, and luminosity + dust attenuation maps (mock Hubble images).
+Each of these modes shares a common underlying API for setting up the image and can easily be plotted in matplotlib axis objects so you can compose or plot ontop of them. 
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- **To bold text**, use `**To bold text**`.
-- *To italicize text*, use `*To italicize text*`.
-- Abbreviations, like HTML should be defined like this `*[HTML]: HyperText Markup Language`.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- ~~Deleted~~ text should use `~~deleted~~` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-## Heading 2
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Heading 3
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
-
-#### Heading 4
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
-
-##### Heading 5
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
-
-###### Heading 6
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-~~~js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those
-// arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-~~~
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-HyperText Markup Language (HTML)
-: The language used to describe and define the content of a Web page
-
-Cascading Style Sheets (CSS)
-: Used to describe the appearance of Web content
-
-JavaScript (JS)
-: The programming language used to build advanced Web sites and applications
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![800x400](https://via.placeholder.com/800x400 "Large example image")
-
-![400x200](https://via.placeholder.com/400x200 "Medium example image")
-
-![200x200](https://via.placeholder.com/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-| Name     | Upvotes   | Downvotes |
-|:---------|:----------|:----------|
-| Alice    |        10 |        11 |
-| Bob      |         4 |         3 |
-| Charlie  |         7 |         9 |
-|==========|===========|===========|
-|Totals    |        21 |        23 |
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-*[HTML]: HyperText Markup Language
-*[CSS]: Cascading Style Sheets
-*[JS]: JavaScript
+More information, tutorials, and the code itself can be found [on it's homepage](alexbgurvi.ch/FIRE_studio).

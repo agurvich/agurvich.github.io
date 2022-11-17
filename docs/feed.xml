@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://alexbgurvi.ch/docs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alexbgurvi.ch/docs/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-11-17T14:04:31-06:00</updated><id>https://alexbgurvi.ch/docs/feed.xml</id><title type="html">Alex Gurvich</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://alexbgurvi.ch/docs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alexbgurvi.ch/docs/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-11-17T17:09:36-06:00</updated><id>https://alexbgurvi.ch/docs/feed.xml</id><title type="html">Alex Gurvich</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><entry><title type="html">Astronomy on Tap: Chicago</title><link href="https://alexbgurvi.ch/docs/outreach/astronomy-on-tap/" rel="alternate" type="text/html" title="Astronomy on Tap: Chicago" /><published>2022-08-31T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/outreach/astronomy-on-tap</id><content type="html" xml:base="https://alexbgurvi.ch/docs/outreach/astronomy-on-tap/"><![CDATA[<p>Astronomy on Tap is an international public outreach effort that combines a love of science and trivia with a love of beer. Before the pandemic, the Northwestern based group hosts a quarterly event at bars around Chicago.</p>
 
 <p>I help out by organizing with venues, choosing and inviting speakers, writing trivia, engaging with audience members during events, and sometimes even giving talks myself.</p>
 
 <p>You can learn more about Astronomy on Tap in Chicago by checking out our</p>
 
-<p>Facebook and Twitter</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="outreach" /><summary type="html"><![CDATA[Astronomy on Tap is an international outreach organization, I was the leader of the Chicago chapter!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Galaxy formation</title><link href="https://alexbgurvi.ch/docs/subjects/research/" rel="alternate" type="text/html" title="Galaxy formation" /><published>2022-08-30T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/subjects/research</id><content type="html" xml:base="https://alexbgurvi.ch/docs/subjects/research/"><![CDATA[<p>hello this is text</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="subjects" /><summary type="html"><![CDATA[hello this is text]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Firefly</title><link href="https://alexbgurvi.ch/docs/visualization/firefly/" rel="alternate" type="text/html" title="Firefly" /><published>2022-08-21T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/visualization/firefly</id><content type="html" xml:base="https://alexbgurvi.ch/docs/visualization/firefly/"><![CDATA[<p>Firefly is a browser-based 3D interactive data visualization software for particle-like data. 
+<p>Facebook and Twitter</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="outreach" /><summary type="html"><![CDATA[Astronomy on Tap is an international outreach organization, I was the leader of the Chicago chapter!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/aot_chicago/bkg_aot_coaster.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Galaxy formation</title><link href="https://alexbgurvi.ch/docs/subjects/research/" rel="alternate" type="text/html" title="Galaxy formation" /><published>2022-08-30T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/subjects/research</id><content type="html" xml:base="https://alexbgurvi.ch/docs/subjects/research/"><![CDATA[<p>hello this is text</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="subjects" /><summary type="html"><![CDATA[hello this is text]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Firefly</title><link href="https://alexbgurvi.ch/docs/visualization/firefly/" rel="alternate" type="text/html" title="Firefly" /><published>2022-08-21T00:00:00-05:00</published><updated>2022-11-17T14:05:31-06:00</updated><id>https://alexbgurvi.ch/docs/visualization/firefly</id><content type="html" xml:base="https://alexbgurvi.ch/docs/visualization/firefly/"><![CDATA[<p>Firefly is a browser-based 3D interactive data visualization software for particle-like data. 
 I co-created it in partnership with Aaron Geller, a research faculty member (and dataviz guru) at Northwestern’s Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA) where I am currently a graduate student.</p>
 <figure style="width:50%; float:right; height:auto; margin:10px">
   <img src="/docs/assets/img/subjects/visualization/firefly/hot_accretion.png" />
@@ -304,136 +304,15 @@ Using this method, we have visualized all of the stars in Gaia DR3, just over on
 
 <p>Using the FIRE simulations to test the of dynamical equilibrium theory, we find that the weight is balanced by the pressure across the face of the disk. I find that the total pressure is dominated by turbulent pressure from the warm and cold phases near the midplane and thermal pressure from the hot phase at above a few (4-5) gas-density-scale-heights. Intriguingly, the FIRE simulations may additionally show that scatter in the KS relation at fixed gas surface density may correspond 1-1 with deviations from vertical pressure balance though direct evidence of a hard link is difficult to prove.</p>
 
-<p>For more details, see the paper.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="research" /><summary type="html"><![CDATA[ADS link]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data visualization</title><link href="https://alexbgurvi.ch/docs/subjects/visualization/" rel="alternate" type="text/html" title="Data visualization" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/subjects/visualization</id><content type="html" xml:base="https://alexbgurvi.ch/docs/subjects/visualization/"><![CDATA[]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="subjects" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">FIRE studio</title><link href="https://alexbgurvi.ch/docs/visualization/FIRE-studio/" rel="alternate" type="text/html" title="FIRE studio" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/visualization/FIRE-studio</id><content type="html" xml:base="https://alexbgurvi.ch/docs/visualization/FIRE-studio/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+<p>For more details, see the paper.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="research" /><summary type="html"><![CDATA[ADS link]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/vpb/bkg_pretty_threegal_slice.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data visualization</title><link href="https://alexbgurvi.ch/docs/subjects/visualization/" rel="alternate" type="text/html" title="Data visualization" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/subjects/visualization</id><content type="html" xml:base="https://alexbgurvi.ch/docs/subjects/visualization/"><![CDATA[]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="subjects" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">FIRE studio</title><link href="https://alexbgurvi.ch/docs/visualization/FIRE-studio/" rel="alternate" type="text/html" title="FIRE studio" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/visualization/FIRE-studio</id><content type="html" xml:base="https://alexbgurvi.ch/docs/visualization/FIRE-studio/"><![CDATA[<p>FIRE Studio was inspired by a student I worked with who took a screenshot of figure from a paper and put it on their poster because they wanted a pretty image of a simulation they were studying. 
+I thought to myself, this isn’t right. 
+The power to visualize images should belong to everyone and so I set out to write a convenient and sensible API for making publication quality images that you could plot stuff on top of. 
+Thus, FIRE Studio was born. 
+FIRE Studio is named as such because I love movies (science ones but also like, actual movies) and I wanted users to feel like they were in the editing booth turning knobs to make the most fantastic version of their figure/movie (now I mean the science kind) they could.
+There are cameras, and “productions” (pre-built visualization scripts that people can riff off of) and utilities for time interpolating data using a novel slope-limiting scheme to avoid spurious artifacts when making high framerate movies (thanks Phil for the inspiration!).</p>
 
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
+<p>FIRE Studio has a couple of different “modes” (or studios, as I call them).
+Users can make column density projections, “two color” projections where the hue is set by one quantity like temperature and the brightness is set by another like density, “three color” projections where different quantities (usually mass in different temperature bins) are projected and colormapped independently and then the R, G, and B channels are blended, and luminosity + dust attenuation maps (mock Hubble images).
+Each of these modes shares a common underlying API for setting up the image and can easily be plotted in matplotlib axis objects so you can compose or plot ontop of them.</p>
 
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-<h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
-
-<p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-
-<ul>
-  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">**To bold text**</code>.</li>
-  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">*To italicize text*</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should be defined like this <code class="language-plaintext highlighter-rouge">*[HTML]: HyperText Markup Language</code>.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">~~deleted~~</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-</ul>
-
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
-
-<h2 id="heading-2">Heading 2</h2>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-<h3 id="heading-3">Heading 3</h3>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h4 id="heading-4">Heading 4</h4>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h5 id="heading-5">Heading 5</h5>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h6 id="heading-6">Heading 6</h6>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h2 id="code">Code</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis <code class="language-plaintext highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="lists">Lists</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-<ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
-</ul>
-
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
-
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-<dl>
-  <dt>HyperText Markup Language (<abbr title="HyperText Markup Language">HTML</abbr>)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-  <dt>Cascading Style Sheets (<abbr title="Cascading Style Sheets">CSS</abbr>)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-  <dt>JavaScript (<abbr title="JavaScript">JS</abbr>)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
-
-<p><img src="https://via.placeholder.com/800x400" alt="800x400" title="Large example image" /></p>
-
-<p><img src="https://via.placeholder.com/400x200" alt="400x200" title="Medium example image" /></p>
-
-<p><img src="https://via.placeholder.com/200x200" alt="200x200" title="Small example image" /></p>
-
-<h2 id="tables">Tables</h2>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th style="text-align: left">Upvotes</th>
-      <th style="text-align: left">Downvotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Alice</td>
-      <td style="text-align: left">10</td>
-      <td style="text-align: left">11</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Bob</td>
-      <td style="text-align: left">4</td>
-      <td style="text-align: left">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Charlie</td>
-      <td style="text-align: left">7</td>
-      <td style="text-align: left">9</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Totals</td>
-      <td style="text-align: left">21</td>
-      <td style="text-align: left">23</td>
-    </tr>
-  </tfoot>
-</table>
-
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="visualization" /><summary type="html"><![CDATA[a package i wrote for conveniently projecting SPH data]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dearborn Observatory</title><link href="https://alexbgurvi.ch/docs/outreach/dearborn/" rel="alternate" type="text/html" title="Dearborn Observatory" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/outreach/dearborn</id><content type="html" xml:base="https://alexbgurvi.ch/docs/outreach/dearborn/"><![CDATA[<p>Every week the Dearborn Observatory is open to the public on Friday nights from 8:00pm-10:00pm for observing and a tour of the telescope run by graduate students. Separately, on the last Friday of every month graduate students and post-docs give outreach lectures and answer questions. I regularly volunteer to operate the Dearborn Telescope for the public observing sessions as well as host the Astronomer Evenings once or twice a quarter.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="outreach" /><summary type="html"><![CDATA[CIERA astronomer evenings and the Friday night public observing!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/dearborn/bkg_dearborn.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/dearborn/bkg_dearborn.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>More information, tutorials, and the code itself can be found <a href="alexbgurvi.ch/FIRE_studio">on it’s homepage</a>.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="visualization" /><summary type="html"><![CDATA[FIRE Studio is a package I wrote to allow anyone to make publication quality images of simulation data. Power to the people!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firestudio/bkg_firestudio.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dearborn Observatory</title><link href="https://alexbgurvi.ch/docs/outreach/dearborn/" rel="alternate" type="text/html" title="Dearborn Observatory" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/outreach/dearborn</id><content type="html" xml:base="https://alexbgurvi.ch/docs/outreach/dearborn/"><![CDATA[<p>Every week the Dearborn Observatory is open to the public on Friday nights from 8:00pm-10:00pm for observing and a tour of the telescope run by graduate students. Separately, on the last Friday of every month graduate students and post-docs give outreach lectures and answer questions. I regularly volunteer to operate the Dearborn Telescope for the public observing sessions as well as host the Astronomer Evenings once or twice a quarter.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="outreach" /><summary type="html"><![CDATA[CIERA astronomer evenings and the Friday night public observing!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/dearborn/bkg_dearborn.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/outreach/dearborn/bkg_dearborn.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
