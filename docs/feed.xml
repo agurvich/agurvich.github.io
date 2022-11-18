@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://alexbgurvi.ch/docs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alexbgurvi.ch/docs/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-11-18T14:05:42-06:00</updated><id>https://alexbgurvi.ch/docs/feed.xml</id><title type="html">Alex Gurvich</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://alexbgurvi.ch/docs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alexbgurvi.ch/docs/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-11-18T17:26:09-06:00</updated><id>https://alexbgurvi.ch/docs/feed.xml</id><title type="html">Alex Gurvich</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
 </subtitle><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><entry><title type="html">Astronomy on Tap: Chicago</title><link href="https://alexbgurvi.ch/docs/outreach/astronomy-on-tap/" rel="alternate" type="text/html" title="Astronomy on Tap: Chicago" /><published>2022-08-31T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/outreach/astronomy-on-tap</id><content type="html" xml:base="https://alexbgurvi.ch/docs/outreach/astronomy-on-tap/"><![CDATA[<p>Astronomy on Tap is an international public outreach effort that combines a love of science and trivia with a love of beer. Before the pandemic, the Northwestern based group hosts a quarterly event at bars around Chicago.</p>
 
 <p>I help out by organizing with venues, choosing and inviting speakers, writing trivia, engaging with audience members during events, and sometimes even giving talks myself.</p>
@@ -34,19 +34,19 @@ Using this method, we have visualized all of the stars in Gaia DR3, just over on
 
 <p>Demos, documentation, and the code paper are all available on the <a href="https://alexbgurvi.ch/Firefly">code’s homepage</a>.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="visualization" /><summary type="html"><![CDATA[In Firefly, users can explore their data by panning, zooming, rotating, filtering, and colormapping just by visiting a URL.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/four_view_banner.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/visualization/firefly/four_view_banner.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Disk Formation</title><link href="https://alexbgurvi.ch/docs/research/disk-formation/" rel="alternate" type="text/html" title="Disk Formation" /><published>2022-08-21T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/research/disk-formation</id><content type="html" xml:base="https://alexbgurvi.ch/docs/research/disk-formation/"><![CDATA[<p>A prediction of the the FIRE simulations is that the progenitors of star forming Milky Way-mass disk galaxies are irregular galaxies with time-variable (“bursty”) star formation rates (SFRs). In the simulations, the SFR can change by a factor of 30 in as little as 100 Myr at high redshift, in contrast to the relatively time-steady SFR at low-redshift that remains constant to ~10-20%.</p>
 
-<p>The physics that drive this transition is still not certain. In our collaboration, we are investigating the interplay between the circumgalactic medium (CGM) and interstellar medium (ISM) in this context. Recently, our group has shown that the inner CGM virializes and becomes thermally supported (forming a hot halo) at the same time the SFR becomes time-steady. It is possible that the formation of a hot halo is integral to enabling a disk to remain stable by 1) providing pressure confinement of stellar feedback driven outflows and 2) providing a smooth source of accretion onto the galactic disk. In addition to the coincident formation of a hot halo and steadying of the SFR, there are a number of other properties that change at or near the same time. Our current analysis seeks to explore these factors and isolate the key processes at play and the chain of events leading to stable galactic disk.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="research" /><summary type="html"><![CDATA[ADS link]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CIERA Mentorship Network</title><link href="https://alexbgurvi.ch/docs/advocacy/ciera-mentorship/" rel="alternate" type="text/html" title="CIERA Mentorship Network" /><published>2022-08-21T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/advocacy/ciera-mentorship</id><content type="html" xml:base="https://alexbgurvi.ch/docs/advocacy/ciera-mentorship/"><![CDATA[<p>Mentorship is important for helping people feel like they belong and for giving them advice and making social connections. 
-Traditional mentorship structures pair mentors/mentees into “dyads” but this is not great for a couple of reasons. 
+<p>The physics that drive this transition is still not certain. In our collaboration, we are investigating the interplay between the circumgalactic medium (CGM) and interstellar medium (ISM) in this context. Recently, our group has shown that the inner CGM virializes and becomes thermally supported (forming a hot halo) at the same time the SFR becomes time-steady. It is possible that the formation of a hot halo is integral to enabling a disk to remain stable by 1) providing pressure confinement of stellar feedback driven outflows and 2) providing a smooth source of accretion onto the galactic disk. In addition to the coincident formation of a hot halo and steadying of the SFR, there are a number of other properties that change at or near the same time. Our current analysis seeks to explore these factors and isolate the key processes at play and the chain of events leading to stable galactic disk.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="research" /><summary type="html"><![CDATA[ADS link]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/research/disk_formation/bkg_disk_settling_stamps.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">CIERA Mentorship Network</title><link href="https://alexbgurvi.ch/docs/advocacy/ciera-mentorship/" rel="alternate" type="text/html" title="CIERA Mentorship Network" /><published>2022-08-21T00:00:00-05:00</published><updated>2022-11-18T14:17:25-06:00</updated><id>https://alexbgurvi.ch/docs/advocacy/ciera-mentorship</id><content type="html" xml:base="https://alexbgurvi.ch/docs/advocacy/ciera-mentorship/"><![CDATA[<!--
+Mentorship is important for helping people feel like they belong and for giving them advice and making social connections.  
 If the pairing is not so great then the relationship can do more harm than good. 
-As well, there are many axes to mentorship, emotional, professional, scientific, social, etc. and it is a lot to expect a single mentor to fulfill all these different needs .</p>
+-->
+<p>Traditional mentorship structures pair mentors/mentees into “dyads” but there are many axes to mentorship  (emotional, professional, scientific, social, etc.) and it is a lot to expect a single mentor to fulfill all these different needs .</p>
 <figure style="width:50%; float:right; height:auto; margin:10px">
   <img src="/docs/assets/img/subjects/advocacy/ciera_mentorship/mentor_lunch.jpg" />
   <figcaption>
     The first mentor network cohort meeting at our monthly lunch to discuss mentorship tools and strategies.
   </figcaption>
 </figure>
-<p>It would be better instead if mentees had an network of mentors that extended beyond their main thesis advisor. 
-In particular, this was called for by the climate survey our department (Center for Interdisciplinary Exploration and Research in Astrophysics; CIERA) and there was a lot of interest in participating in it.
-As a result, CIERA’s Social Justice Initiative Coordinating Committee (SJCC) made a call for volunteers to form the Mentorship Action Team (MAT). 
+<p>It would be better instead if mentees had an network of mentors that extended beyond their main thesis advisor and indeed such a network was a popular request in the climate survey of our department.
+As a result, CIERA’s Social Justice Initiative Coordinating Committee (SJCC) organized the Mentorship Action Team (MAT). 
 As a member of the MAT I used my experience from starting the peer mentorship program in <a href="/docs/advocacy/pagsc/">PAGSC</a> to guide the creation of this broader mentorship program. 
 In particular I emphasized the need for concrete mentorship support to persist past the initial phase of matching, and helped to build a library of mentorship resources (e.g. articles, guides, and example mentorship agreements). 
 To enhance the impact of these resources, the MAT hosts a monthly lunch to discuss mentorship best practices and to give mentors and mentees an opportunity to meet.
@@ -61,139 +61,25 @@ Participation in our mentorship network is not required to attend the monthly lu
 <p>Another major contribution I made to the MAT was in the matching algorithm. 
 I led the code development and testing for a network graph theory approach to matching mentors and mentees based on survey data. 
 The basic idea is to use a Monte Carlo approach of “randomly” assigning mentees and mentors (with some constraints that prioritize junior members).
-By defining quantitative goodness-of-fit metrics on each proposed network, we can take the “optimal” network.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="advocacy" /><summary type="html"><![CDATA[I helped design a hierarchical extended mentorship network powered by network graph theory.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/ciera_mentorship/bkg_ciera_logo.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/ciera_mentorship/bkg_ciera_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PAGSC</title><link href="https://alexbgurvi.ch/docs/advocacy/pagsc/" rel="alternate" type="text/html" title="PAGSC" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/advocacy/pagsc</id><content type="html" xml:base="https://alexbgurvi.ch/docs/advocacy/pagsc/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+By defining quantitative goodness-of-fit metrics on each proposed network, we can take the “optimal” network.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="advocacy" /><summary type="html"><![CDATA[I helped design a hierarchical extended mentorship network powered by network graph theory.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/ciera_mentorship/bkg_ciera_logo.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/ciera_mentorship/bkg_ciera_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PAGSC</title><link href="https://alexbgurvi.ch/docs/advocacy/pagsc/" rel="alternate" type="text/html" title="PAGSC" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-10-05T19:21:14-05:00</updated><id>https://alexbgurvi.ch/docs/advocacy/pagsc</id><content type="html" xml:base="https://alexbgurvi.ch/docs/advocacy/pagsc/"><![CDATA[<p>The Northwestern Physics and Astronomy Graduate Student Council (PAGSC) is an amazing community of graduate students that helps make life better in the Northwestern Physics and Astronomy department. 
+PAGSC is many things but at its core it’s a force for positive change in the department.
+PAGSC is split into 7 sub-committees: quality of life, international students, master’s students, outreach, equity &amp; inclusion, TA, and curriculum headed by an executive committee of three: president, secretary, and treasurer.</p>
 
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
-
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-<h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
-
-<p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-
-<ul>
-  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">**To bold text**</code>.</li>
-  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">*To italicize text*</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should be defined like this <code class="language-plaintext highlighter-rouge">*[HTML]: HyperText Markup Language</code>.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">~~deleted~~</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-</ul>
-
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
-
-<h2 id="heading-2">Heading 2</h2>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-<h3 id="heading-3">Heading 3</h3>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h4 id="heading-4">Heading 4</h4>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h5 id="heading-5">Heading 5</h5>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h6 id="heading-6">Heading 6</h6>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h2 id="code">Code</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis <code class="language-plaintext highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="lists">Lists</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-<ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
-</ul>
-
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
-
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-<dl>
-  <dt>HyperText Markup Language (<abbr title="HyperText Markup Language">HTML</abbr>)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-  <dt>Cascading Style Sheets (<abbr title="Cascading Style Sheets">CSS</abbr>)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-  <dt>JavaScript (<abbr title="JavaScript">JS</abbr>)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
-
-<p><img src="https://via.placeholder.com/800x400" alt="800x400" title="Large example image" /></p>
-
-<p><img src="https://via.placeholder.com/400x200" alt="400x200" title="Medium example image" /></p>
-
-<p><img src="https://via.placeholder.com/200x200" alt="200x200" title="Small example image" /></p>
-
-<h2 id="tables">Tables</h2>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th style="text-align: left">Upvotes</th>
-      <th style="text-align: left">Downvotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Alice</td>
-      <td style="text-align: left">10</td>
-      <td style="text-align: left">11</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Bob</td>
-      <td style="text-align: left">4</td>
-      <td style="text-align: left">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Charlie</td>
-      <td style="text-align: left">7</td>
-      <td style="text-align: left">9</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Totals</td>
-      <td style="text-align: left">21</td>
-      <td style="text-align: left">23</td>
-    </tr>
-  </tfoot>
-</table>
-
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="advocacy" /><summary type="html"><![CDATA[I was president of the physics and astronomy graduate student council.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/pagsc/bkg_pagsc_logo.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/pagsc/bkg_pagsc_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Vertical pressure balance</title><link href="https://alexbgurvi.ch/docs/research/vertical-pressure-balance/" rel="alternate" type="text/html" title="Vertical pressure balance" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/research/vertical-pressure-balance</id><content type="html" xml:base="https://alexbgurvi.ch/docs/research/vertical-pressure-balance/"><![CDATA[<p>If the gas in galaxies were allowed to collapse freely it would be entirely converted into stars within just a few hundred million years (i.e. 100% of the gas would be converted to stars per free-falll time). Instead, we see that stars form very inefficiently over the course of billions of years. This inefficiency is parameterized by the observed Kennicutt-Schmidt (KS) relation, a well known observational fact that the surface density of molecular gas and the star formation rate surface density in star forming galaxies is tightly correlated.  The normalization of the KS relation reveals that star formation proceeds very inefficiently, at a rate of approximately 1-2% per free-fall time. However, the physics by which star formation is regulated to this inefficient state are uncertain.</p>
+<p>I sat on the executive committee as 3 years (and was president most recently) and was chair of the outreach committee for the past 5 years.
+As an executive committee member and committee chair I met with the department chair quarterly to discuss systemic issues of concern to the department. 
+For example, I advocated for and co-served as the first graduate student liaison(s) for the faculty search committee and defined the process by which graduate students interview and give feedback about faculty candidates. 
+I also designed a peer mentorship program to match incoming first year students with more senior graduate students and organized extracurricular professional development workshops (and in some cases delivered them myself). 
+I also helped write our department’s code of conduct, helped start (and proudly named) our E&amp;I committee’s monthly “Stuff we don’t talk about (but really should) ft. bagels and coffee,” and successfully negotiated the conversion of surplus office space into a graduate study lounge.
+As the outreach committee chair, I helped design a set of recommendations for the protocol for the creation of new outreach programs centered on social justice and inclusion, organized outreach programs for a local middle school, and coordinated volunteers for one-off outreach activities.</p>
+<figure style="width:50%; float:right; height:auto; margin:10px">
+  <img src="/docs/assets/img/subjects/advocacy/pagsc/fireboat.jpeg" />
+  <figcaption>
+    The second annual boat cruise, a tradition I began as president of PAGSC. We had nearly 100 sailors on our last cruise, so proud of our grad student community!
+  </figcaption>
+</figure>
+<p>PAGSC is also responsible for planning social events subsidized by the department like movie and game nights, ice skating, and tickets to Cubs games. 
+As president of PAGSC, I formalized the procedure by which big ticket “special events” were planned and budgeted and started the tradition of chartering a boat cruise (partially subsidized by the department; tickets are usually ~$20/head) for graduate students to kick off the year and welcome incoming graduate students.
+These events are an important social glue that helps bind the department and cross group boundaries in order to build cohesion and help graduate students make friends in a new environment.</p>]]></content><author><name>Alex Gurvich</name><email>agurvich@u.northwestern.edu</email></author><category term="advocacy" /><summary type="html"><![CDATA[I helped lead the Physics and Astronomy Graduate Student Council, our department's graduate student self-advocacy organization.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/pagsc/bkg_pagsc_logo.png" /><media:content medium="image" url="https://alexbgurvi.ch/docs/assets/img/subjects/advocacy/pagsc/bkg_pagsc_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Vertical pressure balance</title><link href="https://alexbgurvi.ch/docs/research/vertical-pressure-balance/" rel="alternate" type="text/html" title="Vertical pressure balance" /><published>2022-08-20T00:00:00-05:00</published><updated>2022-11-17T13:30:06-06:00</updated><id>https://alexbgurvi.ch/docs/research/vertical-pressure-balance</id><content type="html" xml:base="https://alexbgurvi.ch/docs/research/vertical-pressure-balance/"><![CDATA[<p>If the gas in galaxies were allowed to collapse freely it would be entirely converted into stars within just a few hundred million years (i.e. 100% of the gas would be converted to stars per free-falll time). Instead, we see that stars form very inefficiently over the course of billions of years. This inefficiency is parameterized by the observed Kennicutt-Schmidt (KS) relation, a well known observational fact that the surface density of molecular gas and the star formation rate surface density in star forming galaxies is tightly correlated.  The normalization of the KS relation reveals that star formation proceeds very inefficiently, at a rate of approximately 1-2% per free-fall time. However, the physics by which star formation is regulated to this inefficient state are uncertain.</p>
 
 <p>One class of “dynamical equilibrium” models posits that the star formation rate is connected to the gas surface density by means of pressure. One can derive the KS relation (with both the correct slope and normalization) by equating the weight of the overlying gas at the midplane to the pressure generated by stellar feedback from recent star formation. One benefit of this class of models over other explanations for the KS relation is that they naturally predict variation in the slope of the KS relation (a poorly understood but observed phenomenon) as a function of galaxy composition (in particular, the gas fraction).</p>
 
