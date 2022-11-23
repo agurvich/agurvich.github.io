@@ -9,13 +9,13 @@ url:                   https://alexbgurvi.ch
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               '/docs'
+baseurl:               ''
 
 
 # General settings
 # ---------------------------------------------------------------------------------------
 
-destination: ../docs
+destination: ..
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
