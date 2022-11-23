@@ -80,6 +80,10 @@
   max-width:300px
 }
 
+body::before{
+  width:21rem;
+}
+
 #_main{
   max-width:1200px;
   margin-left: 25rem;
