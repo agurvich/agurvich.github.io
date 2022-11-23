@@ -57,6 +57,11 @@
   max-width:300px
 }
 
+// strangely, needs to be changed so that the drawer doesn't overlap the main contents??
+#_drawer{
+  --hy-drawer-peek-width:21rem;
+}
+
 .home-grid-content .annotation-wrapper{
   top:-5px;
 }
@@ -77,6 +82,8 @@
 
 #_main{
   max-width:1200px;
+  margin-left: 25rem;
+  margin-right: 4rem;
 }
 
 .grid-content .post-title{
