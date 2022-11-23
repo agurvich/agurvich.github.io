@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disk Formation
+title: Rapid galactic disk settling
 description: >
   <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3664G/abstract">ADS link</a>
 sitemap: true
