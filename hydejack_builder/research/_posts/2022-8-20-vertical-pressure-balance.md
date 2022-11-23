@@ -2,6 +2,7 @@
 layout: post
 title: "Vertical pressure balance"
 description: >
+  I showed that vertical pressure balance is achieved and that it explains the origin of the KS relation in the FIRE simulations.
   <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3664G/abstract">ADS link</a>
 sitemap: true
 hide_last_modified: true

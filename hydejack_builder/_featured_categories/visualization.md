@@ -16,3 +16,7 @@ slug: visualization
 # (Optional) You can disable grouping posts by date.
 no_groups: true
 ---
+
+In addition to my research in galaxy formation, I develop scientific visualization software. 
+
+<hr>

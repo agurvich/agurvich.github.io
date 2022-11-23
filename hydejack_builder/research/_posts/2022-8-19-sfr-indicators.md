@@ -1,9 +1,9 @@
 ---
 layout: post
-title: SFR Indicators
+title: Timescales of SFR indicators
 description: >
-  <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.3664G/abstract">ADS link</a>
-  with Jose
+  My REU student showed that the time scales of observational SFR indicators vary depending on the shape of the SFH.
+  <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.501.4812F/abstract">ADS link</a>
 sitemap: true
 hide_last_modified: true
 image:

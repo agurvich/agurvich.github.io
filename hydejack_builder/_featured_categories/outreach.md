@@ -16,3 +16,8 @@ slug: outreach
 # (Optional) You can disable grouping posts by date.
 no_groups: true
 ---
+
+I am very passionate about public outreach, which I see as every scientist's responsibility to engage in. 
+I've participated in countless one-off outreach events (fastidiously enumerated on my CV) and organized almost a dozen events and ongoing programs. I've highlighted just a few below.
+
+ <hr>

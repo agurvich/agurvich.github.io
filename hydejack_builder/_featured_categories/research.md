@@ -16,3 +16,10 @@ slug: research
 # (Optional) You can disable grouping posts by date.
 no_groups: true
 ---
+
+For a full list of my publications check out this [ADS link](https://ui.adsabs.harvard.edu/public-libraries/I4EVLJifS5e_mNdSzMno5A) or visit my [ORCID page](https://orcid.org/0000-0002-6145-3674).
+
+I’m currently working on, and have worked on, a number of different projects. You can check them out below.
+
+<hr>
+
