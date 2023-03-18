@@ -6,12 +6,18 @@ export default function FirstPost() {
     return (
       <Layout>
         <Head>
-          <title>First Post</title>
+            <title>First Post</title>
         </Head>
         <h1>First Post</h1>
         <h2>
-          <Link href="/">← Back to home</Link>
+            this is a blog post
         </h2>
+        hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum
+        hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum
+        hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum
+        hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum
+        hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum
+        hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum hello there lorem ipsum
       </Layout>
     );
   }
