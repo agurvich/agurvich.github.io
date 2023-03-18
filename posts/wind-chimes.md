@@ -3,6 +3,7 @@ layout: post
 title: GPU accelerated chemistry 
 img: chimes_network.png
 tags: [software,astronomy] # add tag
+date: "2019-06-01 00:00:00-06:00"
 ---
 
 ## Let's talk about interstellar chemistry.

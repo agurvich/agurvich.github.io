@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "National fellowships"
-date: 2023-02-01 00:00:00 +0300
+date: "2023-02-01 00:00:00-06:00"
 img: fellowship_bubble.png # Add image post (optional)
 tags: [dataviz,astronomy] # add tag
 ---

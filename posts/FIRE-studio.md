@@ -3,6 +3,7 @@ layout: post
 title: FIRE Studio
 img: firestudio.png
 tags: [dataviz,software]
+date: "2022-06-01 00:00:00-06:00"
 ---
 
 ## importance
