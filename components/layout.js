@@ -17,22 +17,22 @@ const socials = {
     "twitter":{
         'url':'https://www.twitter.com/',
         'username':"alexbgurvich",
-        'icon':0,
+        'icon':"fa-twitter",
     },
     "linkedin":{
         'url':'https://www.linkedin.com/in/',
         'username':"alex-b-gurvich",
-        'icon':0,
+        'icon':"fa-linkedin",
     },
     "github":{
         'url':'https://www.github.com/',
         'username':"agurvich",
-        'icon':0,
+        'icon':"fa-github",
     },
     "email":{
         'url':'mailto:',
         'username':"alex.b.gurvich@gmail.com",
-        'icon':0,
+        'icon':"fa-envelope-o",
     }
 }
 
@@ -82,6 +82,7 @@ export default function Layout({ children, home, ...rest}) {
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+                <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"/>
             </Head>
             
             {/* put the sidebar onto the, well, side. */}
@@ -90,14 +91,13 @@ export default function Layout({ children, home, ...rest}) {
             {/* main content goes here */}
             <main className={styles.content}>
                 {children}
+                {/* add a navigation back to home if not on the home page */}
+                {!home && (
+                    <div className={styles.backToHome}>
+                        <Link href="/">← Back to home</Link>
+                    </div>
+                )}
             </main>
-
-            {/* add a navigation back to home if not on the home page */}
-            {!home && (
-                <div className={styles.backToHome}>
-                    <Link href="/">← Back to home</Link>
-                </div>
-            )}
         </div>
     );
 } 

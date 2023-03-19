@@ -57,7 +57,7 @@ export default function PostGrid({ children, home, id, img, ...rest }) {
                 src={"/images/"+img}
                 className={styles.thumbnail}
                 height={200}
-                width={1000} /* TODO figure out how to measure screen size... to take advantage of mipmap rather than resizing */
+                width={400} 
                 resizeMode={'cover'}
                 alt=""
               /> 

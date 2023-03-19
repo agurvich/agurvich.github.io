@@ -23,13 +23,11 @@ export default function Home( { allPostsData } ) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section>
             <ul className={utilStyles.list}>
                 {allPostsData.map(({id, title, date, ...rest}) => (
                     <PostGrid id={id} title={title} date={date} {...rest}/>
                 ))}
             </ul>
-            </section>
         </Layout>
     );
 }
