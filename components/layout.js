@@ -1,67 +1,96 @@
+{/* import built-in components */}
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
+{/* import our components */}
+import Contact from "./contact"
+
+{/* import necessary styles */}
+import utilStyles from '../styles/utils.module.css';
+import styles from './layout.module.css';
+
+{/* user data defined here, there's probably a better way to do this :\ */}
 const name = 'Alex Gurvich';
 export const siteTitle = 'Alex Gurvich - data scientist';
+const socials = {
+    "twitter":{
+        'url':'https://www.twitter.com/',
+        'username':"alexbgurvich",
+        'icon':0,
+    },
+    "linkedin":{
+        'url':'https://www.linkedin.com/in/',
+        'username':"alex-b-gurvich",
+        'icon':0,
+    },
+    "github":{
+        'url':'https://www.github.com/',
+        'username':"agurvich",
+        'icon':0,
+    },
+    "email":{
+        'url':'mailto:',
+        'username':"alex.b.gurvich@gmail.com",
+        'icon':0,
+    }
+}
 
-export default function Layout({ children, home }) {
+function Copyright({ name }){
+    return(
+    <section>
+        {new Date().getFullYear()} &copy; {name}
+    </section>
+    );
+}
+
+function Sidebar(){
+    return (
+    <div className={styles.sidebar}>
+        <header>
+            <Link href="/">
+                <Image
+                    priority
+                    src="/images/alex-gurvich.png"
+                    className={utilStyles.borderCircle}
+                    height={144}
+                    width={144}
+                    alt=""
+                />
+            </Link>
+            <h1 className={utilStyles.heading2Xl}>
+                <Link href="/" className={utilStyles.colorInherit}>
+                    {name}
+                </Link>
+            </h1>
+        </header>
+
+        <footer className={styles.footer}>
+            {/* lets put our social information into a contact me */}
+            <Contact {...socials} />
+            {/* lets do the copyright info */}
+            <Copyright name={name} />
+        </footer>
+    </div>
+    );
+}
+
+export default function Layout({ children, home, ...rest}) {
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
-                <meta
-                    name="description"
-                    content="Learn how to build a personal website using Next.js"
-                />
-                <meta
-                    property="og:image"
-                    content={`https://og-image.vercel.app/${encodeURI(
-                        siteTitle,
-                    )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-                />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            <div className={styles.sidebar}>
-                <header>
-                    <Link href="/">
-                        <Image
-                            priority
-                            src="/images/alex-gurvich.png"
-                            className={utilStyles.borderCircle}
-                            height={144}
-                            width={144}
-                            alt=""
-                        />
-                    </Link>
-                    <h1 className={utilStyles.heading2Xl}>
-                        <Link href="/" className={utilStyles.colorInherit}>
-                            {name}
-                        </Link>
-                    </h1>
-                </header>
-
-                    <footer className={styles.footer}>
-                        {/* lets do a contact me section */}
-                        <h3> Contact me </h3>
-                        <ul> 
-                            <li>0</li>
-                            <li>0</li>
-                            <li>0</li>
-                            <li>0</li>
-                        </ul>
-                        {/* lets do the copyright info */}
-                        <section>
-                            {new Date().getFullYear()} &copy; {name}
-                        </section>
-                    </footer>
-            </div>
+            
+            {/* put the sidebar onto the, well, side. */}
+            <Sidebar />
 
             {/* main content goes here */}
-            <main style={{'display':'flex','overflow':'auto'}}>{children}</main>
+            <main style={{'display':'flex','overflow':'auto'}}>
+                {children}
+            </main>
 
             {/* add a navigation back to home if not on the home page */}
             {!home && (
@@ -71,4 +100,4 @@ export default function Layout({ children, home }) {
             )}
         </div>
     );
-}
+} 

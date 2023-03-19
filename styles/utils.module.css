@@ -43,55 +43,7 @@
     margin: 0;
     max-width:80%;
   }
-  
-  .listItem {
-    margin: 0 0 1rem;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    border-radius: 10px;
-    overflow:hidden;
-    max-width: 100%;
-    display:flex;
-    align-items:center;
-    height:200px;
-  }
-
-  .listItem:hover{
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
-    transform: translateY(-4px);
-  }
-  
+   
   .lightText {
     color: #666;
-  }
-
-  .postThumbnail{
-    display: inline-block;
-    height:100%;
-    width:40%;
-    object-fit: cover;
-    object-position: center;
-    flex-shrink: 0;
-  }
-
-  .postDescription{
-    margin-left: 25px;
-    max-width:60%;
-    display: inline-block;
-    vertical-align:top;
-    height:200px;
-  }
-
-  .postDescription h1{
-    margin-top:0;
-    margin-bottom:6pt;
-    text-overflow: ellipsis;
-    overflow:hidden;
-    white-space: nowrap;
-  }
-
-.postDescription h2{
-    margin-top:0;
-    margin-bottom:6pt;
-    font-size:small;
-  }
+  } 

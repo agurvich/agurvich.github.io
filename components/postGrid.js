@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import Date from '../components/date';
+
+import styles from './postGrid.module.css';
 
 const name = 'Your Name';
 export const siteTitle = 'Next.js Sample Website';
 
 function PostDescription({title, id, date, ...rest}){
-     return (<div className={utilStyles.postDescription}>
+     return (<div className={styles.description}>
           <h1> <Link href={id}>{title}</Link></h1>
           <h2> <Date dateString={date} /> </h2>
           <p>
@@ -22,11 +22,11 @@ function PostDescription({title, id, date, ...rest}){
 export default function PostGrid({ children, home, id, img, ...rest }) {
      
      return (
-          <li className={utilStyles.listItem} key={id}>
+          <li className={styles.listItem} key={id}>
                <Image
                 priority
                 src={"/images/"+img}
-                className={utilStyles.postThumbnail}
+                className={styles.thumbnail}
                 height={200}
                 width={1000}
                 resizeMode={'cover'}
