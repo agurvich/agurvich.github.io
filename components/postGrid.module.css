@@ -1,6 +1,7 @@
 .listItem {
-    margin: 0 0 1rem;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
     overflow:hidden;
@@ -8,6 +9,7 @@
     display:flex;
     align-items:center;
     height:200px;
+    background-color:white;
 }
 
 .listItem:hover{

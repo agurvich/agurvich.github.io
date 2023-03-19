@@ -1,8 +1,6 @@
 .container {
   width:100%;
   display:flex;
-  margin-top:1rem;
-  margin-left:0.5rem;
   height: 100vh;
   }
   
@@ -12,7 +10,15 @@
   vertical-align: top;
   min-width:300px;
   justify-content: space-between;
-  height:95vh;
+  height:100vh;
+  background-color:white;
+}
+
+.content{
+  padding-top:1rem;
+  display:flex;
+  overflow:scroll;
+  flex-direction:column;
 }
 
 .footer {

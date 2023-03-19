@@ -46,7 +46,7 @@ function Copyright({ name }){
 
 function Sidebar(){
     return (
-    <div className={styles.sidebar}>
+    <aside className={styles.sidebar}>
         <header>
             <Link href="/">
                 <Image
@@ -71,7 +71,7 @@ function Sidebar(){
             {/* lets do the copyright info */}
             <Copyright name={name} />
         </footer>
-    </div>
+    </aside>
     );
 }
 
@@ -88,7 +88,7 @@ export default function Layout({ children, home, ...rest}) {
             <Sidebar />
 
             {/* main content goes here */}
-            <main style={{'display':'flex','overflow':'auto'}}>
+            <main className={styles.content}>
                 {children}
             </main>
 
