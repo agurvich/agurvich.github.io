@@ -24,8 +24,8 @@ export default function Home( { allPostsData } ) {
                 <title>{siteTitle}</title>
             </Head>
             <ul className={utilStyles.list}>
-                {allPostsData.map(({id, title, date, ...rest}) => (
-                    <PostGrid id={id} title={title} date={date} {...rest}/>
+                {allPostsData.map((data) => (
+                    <PostGrid {...data}/>
                 ))}
             </ul>
         </Layout>
