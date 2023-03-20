@@ -76,7 +76,7 @@ export default function Layout({ children, home, ...rest}) {
     return (
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/images/favicon/favicon.ico" />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"/>

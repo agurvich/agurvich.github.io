@@ -2,7 +2,9 @@
 layout: post
 title: "Firefly: an interactive dataviz software an interactive dataviz software"
 date: "2022-10-01 00:00:00-06:00"
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: |
+  You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+  You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: four_view_banner.png # Add image post (optional)
 tags: [dataviz,software] # add tag
 ---
