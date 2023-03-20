@@ -7,7 +7,6 @@ import Link from 'next/link';
 import Contact from "./contact"
 
 {/* import necessary styles */}
-import utilStyles from '../styles/utils.module.css';
 import styles from './layout.module.css';
 
 {/* user data defined here, there's probably a better way to do this :\ */}
@@ -47,22 +46,20 @@ function Copyright({ name }){
 function Sidebar(){
     return (
     <aside className={styles.sidebar}>
-        <header>
+        <header className={styles.header}>
             <Link href="/">
                 <Image
                     priority
                     src="/images/alex-gurvich.png"
-                    className={utilStyles.borderCircle}
-                    height={144}
-                    width={144}
+                    className={styles.profilePicture}
+                    height={100}
+                    width={100}
                     alt=""
                 />
             </Link>
-            <h1 className={utilStyles.heading2Xl}>
-                <Link href="/" className={utilStyles.colorInherit}>
-                    {name}
-                </Link>
-            </h1>
+            <div className={styles.titleName}>
+                {name}
+            </div>
         </header>
 
         <footer className={styles.footer}>

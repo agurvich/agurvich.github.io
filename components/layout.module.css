@@ -16,6 +16,17 @@
   justify-content: space-between;
   height:100vh;
   background-color:white;
+
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.profilePicture{
+  margin-top:1rem;
+  margin-bottom:0.5rem;
+  border-radius: 100%;
 }
 
 .content{
@@ -27,11 +38,29 @@
   flex-grow:1;
 }
 
+.titleName{
+  font-family: serif;
+  text-transform: uppercase;
+}
+
+.titleName::after{
+  content:"";
+  background-color:black;
+  width:7px;
+  height:7px;
+  border-radius:100%;
+  display:block;
+  left:50%;
+  position:absolute;
+  margin-top:0.5rem;
+}
+
 .footer {
   text-align: center;
   align-content: center;
   margin-bottom:2rem;
   font-size:small;
+  width:100%;
 }
 
 .backToHome {
