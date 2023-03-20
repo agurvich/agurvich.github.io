@@ -11,6 +11,7 @@ import styles from './layout.module.css';
 
 {/* user data defined here, there's probably a better way to do this :\ */}
 const name = 'Alex Gurvich';
+const abstract = 'Former astrophysicist turned data scientist. Friend of dogs.';
 export const siteTitle = 'Alex Gurvich - data scientist';
 const socials = {
     "twitter":{
@@ -60,6 +61,9 @@ function Sidebar(){
             <div className={styles.titleName}>
                 {name}
             </div>
+            <p>
+                {abstract}
+            </p>
         </header>
 
         <footer className={styles.footer}>

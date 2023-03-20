@@ -28,6 +28,12 @@
   align-items:center;
 }
 
+.header p{
+  color:gray;
+  font-size:smaller;
+  margin-top:1.5rem;
+}
+
 .profilePicture{
   margin-top:1rem;
   margin-bottom:0.5rem;

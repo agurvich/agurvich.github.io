@@ -11,6 +11,7 @@ import styles from '../styles/post.module.css';
 
 {/* import functions */}
 import { getAllPostIds,getPostData } from '../lib/posts';
+import { TagList } from "../components/postGrid";
 
 export default function Post({ postData }) {
     return (
@@ -20,6 +21,7 @@ export default function Post({ postData }) {
                 <title>{postData.title}</title>
             </Head>
 
+            <div>
             {/* place the header image */}
             <Image
                 priority
@@ -42,6 +44,9 @@ export default function Post({ postData }) {
 
             {/* finally place the main content */}
             <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            </div>
+
+            <aside> <TagList {...postData.tags} /> </aside>
 
         </div>
     </Layout>
