@@ -32,4 +32,9 @@
 
 .listItem {
   display:flex;
+  transition: transform 0.2s ease-in-out;
+}
+
+.listItem:hover {
+  transform: scale(1.2);
 }
