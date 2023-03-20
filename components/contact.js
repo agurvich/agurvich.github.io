@@ -3,7 +3,7 @@ import styles from "./contact.module.css"
 
 function Icon({url,username,icon,...rest}){
     return (
-    <li>
+    <li className={styles.listItem}>
         <a href={url + username} target={"_blank"}>
             <i className={"fa " + icon}/>
         </a>
