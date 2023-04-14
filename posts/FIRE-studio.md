@@ -84,6 +84,11 @@ Thus, we check if there is a change in slope along the path that would suggest a
 If that's the case, then we go down an order until we stop at a straight line which is impossible to have an extremum.
 This slope limiter allows us to have the best of both worlds: accurate high order interpolation when we can manage it and no interpolation artifacts.
 
+![Alt text](images/firestudio.png "Optional title")
+
+[![Alt text](https://img.youtube.com/vi/1EMCYK8FGzg/0.jpg)](https://www.youtube.com/watch?v=1EMCYK8FGzg)
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1EMCYK8FGzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
