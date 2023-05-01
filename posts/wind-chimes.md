@@ -1,9 +1,11 @@
 ---
 layout: post
-title: GPU accelerated chemistry 
+title: GPU-accelerated Chemistry and Numerical Integration
 img: chimes_network.png
 tags: [software,astronomy] # add tag
 date: "2019-06-01 00:00:00-06:00"
+description: |
+    WIND is a CUDA library I built to numerically integrate stiff systems of coupled ODEs-- in particular interstellar chemical abundance networks.
 ---
 
 ## Let's talk about interstellar chemistry.

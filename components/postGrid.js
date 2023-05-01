@@ -51,7 +51,6 @@ function PostDescription({title, id, date, tags, ...rest}){
 }
 
 export default function PostGrid({ children, home, id, img, ...rest }) {
-     
      return (
           <li className={styles.listItem} key={id}>
            <Link href={id} className={styles.thumbnail} >    

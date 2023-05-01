@@ -11,8 +11,7 @@ import styles from './layout.module.css';
 
 {/* user data defined here, there's probably a better way to do this :\ */}
 const name = 'Alex Gurvich';
-const abstract = 'Former astrophysicist turned data scientist. Friend of dogs.';
-export const siteTitle = 'Alex Gurvich - data scientist';
+export const siteTitle = 'Alex Gurvich, Ph.D.';
 const socials = {
     "twitter":{
         'url':'https://www.twitter.com/',
@@ -62,7 +61,13 @@ function Sidebar(){
                 {name}
             </div>
             <p>
-                {abstract}
+                data scientist 
+                <br></br>
+                visualization specialist
+                <br></br>
+                HPC and web software engineer 
+                <br></br>
+                Ph.D. Computational Astrophysics
             </p>
         </header>
 
@@ -84,6 +89,7 @@ export default function Layout({ children, home, ...rest}) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"/>
+                <link rel="stylesheet" href="/css/content.css" />
             </Head>
             
             {/* put the sidebar onto the, well, side. */}
