@@ -29,7 +29,7 @@ export default function Post({ postData }) {
                 className={styles.header}
                 height={500}
                 width={1000} 
-                resizeMode={'cover'}
+                resizemode={'cover'}
                 alt=""
               />
 

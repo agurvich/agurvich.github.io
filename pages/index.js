@@ -1,6 +1,5 @@
 {/* import built-in components */}
 import Head from 'next/head';
-import Link from 'next/link'
 
 {/* import our components */}
 import Layout, { siteTitle } from '../components/layout';
@@ -24,8 +23,8 @@ export default function Home( { allPostsData } ) {
                 <title>{siteTitle}</title>
             </Head>
             <ul className={utilStyles.list}>
-                {allPostsData.map((data) => (
-                    <PostGrid {...data}/>
+                {allPostsData.map((data,index) => (
+                    <PostGrid key={index} {...data}/>
                 ))}
             </ul>
         </Layout>

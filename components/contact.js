@@ -18,8 +18,8 @@ export default function Contact({ ...rest}){
         <div className={styles.myh3}> Contact me </div>
         {/* anchor'd icons to go to my sosh mead */}
         <ul className={styles.list}> 
-            {Object.keys(rest).map( (key) => 
-                <Icon {...rest[key]}/>
+            {Object.keys(rest).map( (key,index) => 
+                <Icon  key={index} {...rest[key]}/>
             )}
         </ul>
     </section>

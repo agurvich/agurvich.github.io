@@ -88,8 +88,6 @@ export default function Layout({ children, home, ...rest}) {
                 <link rel="icon" href="/images/favicon/favicon.ico" />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"/>
-                <link rel="stylesheet" href="/css/content.css" />
             </Head>
             
             {/* put the sidebar onto the, well, side. */}

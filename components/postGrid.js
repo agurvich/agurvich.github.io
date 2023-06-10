@@ -23,8 +23,8 @@ export function TagList(tags){
      return (
      <ul className={styles.tagList}>
           {
-          Object.values(tags).sort().map((tag) => (
-               <TagItem tag={tag} /> 
+          Object.values(tags).sort().map((tag,index) => (
+               <TagItem key={index} tag={tag} /> 
           ))}
      </ul>
      );
@@ -63,7 +63,7 @@ export default function PostGrid({ children, home, id, img, ...rest }) {
                 style={{"width":"100%"}} 
                 height={200}
                 width={400} 
-                resizeMode={'cover'}
+                resizemode={'cover'}
                 alt=""
               />
           </Link> 
