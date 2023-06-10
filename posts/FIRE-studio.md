@@ -3,7 +3,9 @@ layout: post
 title: FIRE Studio
 img: firestudio.png
 tags: [dataviz,software]
-date: "2022-06-01 00:00:00-06:00"
+date: "2022"
+description: |
+    FIRE studio is a visualization package I created to streamline the process of producing publication-quality images of galaxy formation simulation data. 
 ---
 
 ## The importance of compelling scientific visualization

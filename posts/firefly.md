@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Firefly: an Interactive Dataviz Software for Millions of Datapoints"
-date: "2022-10-01 00:00:00-06:00"
+date: "2023-03-16 00:00:00-06:00"
 description: |
   Firefly is a cutting-edge 3D browser-based, interactive, data visualization software designed for tens of millions of datapoints.
 

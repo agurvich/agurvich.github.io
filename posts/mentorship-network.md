@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mentorship network"
-date: "2022-11-01 00:00:00-06:00"
+date: "2022"
 img: mentorship/mentorship.png # Add image post (optional)
 tags: [dataviz,astronomy] # add tag
 ---
