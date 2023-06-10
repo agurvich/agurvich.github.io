@@ -60,15 +60,17 @@ function Sidebar(){
             <div className={styles.titleName}>
                 {name}
             </div>
-            <p>
+            <div style={{marginTop:"25px"}}>
                 data scientist 
-                <br></br>
+                <hr style={{width:"25%"}}/>
                 visualization specialist
-                <br></br>
+                <hr style={{width:"25%"}}/>
                 HPC and web software engineer 
-                <br></br>
-                Ph.D. Computational Astrophysics
-            </p>
+                <hr style={{width:"25%"}}/>
+                Ph.D. Computational Astrophysics & Data Visualization
+                <hr style={{width:"25%"}}/>
+                <Link href="CurrentCV.pdf" target='_blank'>CV</Link>
+            </div>
         </header>
 
         <footer className={styles.footer}>
