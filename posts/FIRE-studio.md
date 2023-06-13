@@ -2,7 +2,7 @@
 layout: post
 title: FIRE Studio
 img: firestudio.png
-tags: [dataviz,software]
+tags: [astronomy,dataviz,software]
 date: "2022"
 description: |
     FIRE studio is a visualization package I created to streamline the process of producing publication-quality images of galaxy formation simulation data. 
@@ -53,13 +53,26 @@ Each of these modes shares a common underlying API for setting up the image.
 That way, you can find a camera angle that you like and easily apply it to totally different rendering pipelines to make an easy comparison. 
 Additionally, each FIRE Studio image is plotted on a matplotlib axis object which is returned to the user, so you can easily compose them in subplots or plot contours or annotations on top of them. 
 
-## Making movies
-Animated visualizations, or "movies," produced by FIRE Studio offer a range of additional benefits compared to their static counterparts. One of the primary advantages is that these dynamic visuals showcase changes over time, allowing researchers to gain a deeper understanding of the evolution of various galactic processes. This temporal aspect is particularly important in the study of phenomena that span vast time scales, such as the life cycle of stars or the movement of gas within galaxies.
-Animated visualizations allow researchers to identify patterns or trends that may be less evident in static visualizations, leading to new discoveries and insights.
-Another advantage of animated visualizations lies in their ability to convey the interconnectedness of various processes within a system. By illustrating how different components of a system interact and influence one another over time, these dynamic visuals can provide a more holistic understanding of the subject matter, which may be difficult to achieve using static images alone.
+## The importance of making movies
+Animated visualizations, or "movies," produced by FIRE Studio offer a range of additional benefits compared to their static counterparts.
+One of the primary advantages is that these dynamic visuals showcase changes over time, allowing researchers to gain a deeper understanding of the evolution of various galactic processes over time.
+Animated visualizations also allow researchers to identify patterns or trends that may not stick out as much in static images, leading to all kinds of new discoveries and insights.
+Animated visualizations are also way better at conveying the interconnectedness of various processes within a system since you can see both aspects changing together in sync, which isn't always obvious in a still image.
+Furthermore, animated visualizations are just plain cooler and are more engaging for audiences, capturing attention and fostering a greater appreciation for the science on display.
+This added engagement can be particularly useful when trying to communicate scientific results to a broader public audience, as it can help make complex concepts more accessible and relatable.
+If you don't believe me, just check out this video (I recommend making it full screen).
+<figure class="figure">
+    <iframe width="100%" height="auto" style="aspect-ratio:3" src="https://www.youtube.com/embed/1EMCYK8FGzg" title="galaxy formation" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+    <caption>
+        The evolution of a Milky Way-like galaxy over time. 
+        This movie takes place billions of years in the past, before the Milky Way formed it's trademark spiral disk. 
+        In the movie we can see how the explosive proto-galaxy eventually settles down and forms a disk through three different lenses: <i> left </i> the gas temperature; <i> middle </i> simulated starlight from all the stars with dust; <i> right </i> simulated starlight from only the youngest stars and without dust (shows where star formation is).
+        Not to brag too much, but this video did win me $200 (and <a href="https://www.youtube.com/watch?v=noFAbbAF-xc" target="_blank"> this one </a> won me $500). 
+    </caption>
+</figure>
 
-Furthermore, animated visualizations can be more engaging for audiences, capturing their attention and fostering a greater appreciation for the research presented. This increased engagement can be particularly beneficial when communicating scientific findings to the broader public, as it helps make complex concepts more accessible and relatable.
-
+## Behind the scenes where movies are made at FIRE Studio
+So now that I've sold you on making movies, let's talk about how the sausage gets made. 
 FIRE Studio uses a unique slope-limiting scheme to minimize artifacts when creating high framerate movies, ensuring smooth and accurate visualizations.
 The simulation output is already massive, a single simulation on disk may take up to 5 TB of space. 
 That space is made up of 100s of snapshots in time of the galaxy separated by tens of millions of years.
@@ -85,14 +98,6 @@ However, higher order interpolation can introduce artifacts.
 Thus, we check if there is a change in slope along the path that would suggest an extremum was encountered (PUT A FIGURE HERE FOR THIS).
 If that's the case, then we go down an order until we stop at a straight line which is impossible to have an extremum.
 This slope limiter allows us to have the best of both worlds: accurate high order interpolation when we can manage it and no interpolation artifacts.
-
-![Alt text](images/firestudio.png "Optional title")
-
-[![Alt text](https://img.youtube.com/vi/1EMCYK8FGzg/0.jpg)](https://www.youtube.com/watch?v=1EMCYK8FGzg)
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1EMCYK8FGzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 If you're looking to simplify your data visualization process and bring your galactic simulations to life, consider giving FIRE Studio a try.
 More information, tutorials, and the code itself can be found [on it's homepage](alexbgurvi.ch/FIRE_studio).
