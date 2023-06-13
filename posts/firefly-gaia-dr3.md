@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Exploring Gaia DR3 with Firefly"
-date: "2023-03-16 00:00:00-06:00"
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+date: "2023-03-16 01:00:00-06:00"
+description: I designed a massively parallel algorithm and progressive rendering scheme in order to interactively visualize all 1.5 billion+ stars observed by the Gaia satellite. # Add post description (optional)
 img: firefly/gaia_lane.png # Add image post (optional)
 tags: [dataviz,astronomy] # add tag
 ---
@@ -24,6 +24,15 @@ To visualize large datasets without overwhelming the browser's memory, Firefly s
 While pre-formatting data as an octree can be computationally expensive and requires saving the data to disk, the benefits of visualizing large datasets that would otherwise be inaccessible to interactive visualization techniques outweigh these drawbacks.
 
 # Building the Octree Using the PDPP
+
+<figure class="left-figure">
+    <img src="images/octree_800px.png"/>
+    <caption>
+    Schematic of an octree recursively partitioning space (left) and the corresponding tree structure (right).
+    Image by Wikipedia user <a href=&quot;//commons.wikimedia.org/wiki/User:WhiteTimberwolf&quot; title=&quot;User:WhiteTimberwolf&quot> WhiteTimberwolf</a>, PNG version: <a href=&quot;https://de.wikipedia.org/wiki/User:N%C3%BC&quot; class=&quot;extiw&quot; title=&quot;de:User:Nü&quot;> Nü</a> - <span class=&quot;int-own-work&quot; lang=&quot;en&quot;>Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=9851485">Link</a>
+    </caption>
+</figure>
+
 
 To create an octree, we typically group particles into nodes containing between 10^4 and 10^5 particles each. The minimum and maximum number of particles per node can be chosen by the user. During tree construction, we also accumulate aggregate statistics, such as total mass and mass-weighted scalar fields. This way, each node in the octree holds aggregate data representing the node on average and buffer data it is responsible for storing.
 
