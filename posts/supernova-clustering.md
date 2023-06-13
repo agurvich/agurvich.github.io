@@ -81,3 +81,5 @@ If you look at the image at the top of the page, you'll see that the yellow dots
 In conclusion, my methodology demonstrated the potential of data science and software engineering to answer "real-life" questions.
 By articulating our question in terms of a statistical concept (friends-of-friends clusters) and applying the necessary software engineering skills to build the necessary framework (including multithreading and accounting for memory limitations using e.g. a sliding memory buffer) I was able to develop a statistical model and gain a better understanding of the underlying processes that govern the behavior of galaxies.
 Still, while this approach shows promise, there is still room for improvement in order to fully capture the details of the clustering statistics in simulations-- in particular the spiral geometry.
+
+If you want to know more you can check out the <a href="clustering_writeup.pdf" target="_blank"> writeup</a> that I put together.
