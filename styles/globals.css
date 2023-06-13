@@ -14,8 +14,16 @@ body {
 }
 
 a {
-  color: black;
+  color: rgb(0, 152, 20);
   text-decoration: none;
+}
+
+h1 a{
+  color: black;
+}
+
+li a{
+  color: black;
 }
 
 a:hover {
