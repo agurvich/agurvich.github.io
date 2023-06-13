@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GPU-accelerated Chemistry and Numerical Integration
+title: GPU-accelerated chemistry and numerical integration with WIND
 img: chimes_network.png
 tags: [software,astronomy] # add tag
 date: "2019"
