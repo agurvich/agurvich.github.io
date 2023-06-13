@@ -16,7 +16,7 @@ So when we're running these big [galaxy formation simulations](https://fire.nort
 The chemical composition of the interstellar gas depends on how elements are transformed inside the interiors of stars (fused from Hydrogen, to Helium, to even heavier elements that astronomers refer to in bulk as "metals;" with this definition Oxygen would be a metal, weird, I know) and how those elements combine to form molecules, i.e. chemistry.
 
 So, in these simulations the typical thing to do is to approximate the chemistry using tabulated chemical reaction rates and then assume the reactions have had enough time to enter a state of "chemical equilibrium" (i.e. the reactions are balanced and the state is no longer changing).
-However, the time it takes for a system to enter chemical equilibrium at these temperature and densities we're simulating can be millions to billions of years-- that assumption may not, and indeed [has been showne](https://richings.bitbucket.io/chimes/home.html) to not always be valid. 
+However, the time it takes for a system to enter chemical equilibrium at these temperature and densities we're simulating can be millions to billions of years-- that assumption may not, and indeed [has been shown](https://richings.bitbucket.io/chimes/home.html) to not always be valid. 
 That's where "non-equilibrium" or "time-dependent" chemistry comes into the story. 
 
 ## The problem with non-equilibrium chemistry
@@ -49,7 +49,8 @@ Alex recently coupled CHIMES to the FIRE simulation code and, when enabled, domi
 However, by offloading the chemistry calculation and integrating the equations on a GPU we hoped to be able to bring the non-equilibrium chemistry in line with the rest of the cost of the simulation.
 
 To that end, I created [WIND](https://github.com/agurvich/WIND), a CUDA application that integrates general systems of coupled stiff differential equations.
-WIND is a standalone application that takes as input specially formatted data tabulating the coefficients in each of the differential equations. 
+For the name, I wanted to evoke the idea of movement of the whole from a collection of small things, like particles of air in the wind-- also it pairs well with CHIMES.
+But I digress, WIND is a standalone application that takes as input specially formatted data tabulating the coefficients in each of the differential equations. 
 It is written in C+CUDA and implements both explicit (Runge-Kutta 4) and implicit (Semi-implicit extrapolation) differential equation integrators.
 I optimized it at the kernel level using Nvidia's NSIGHT Compute profiling software. 
 It uses shared block memory where possible, and texture memory to store reaction rate coefficients for easy interpolation. 
