@@ -22,6 +22,7 @@ export default function Home( { allPostsData } ) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
+            <h1> a portfolio & blog </h1>
             <ul className={utilStyles.list}>
                 {allPostsData.map((data,index) => (
                     <PostGrid key={index} {...data}/>

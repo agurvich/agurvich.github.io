@@ -15,7 +15,7 @@ export default function Contact({ ...rest}){
     return (
     <section className={styles.section}>
         {/* lets do a contact me section */}
-        <div className={styles.myh3}> Contact me </div>
+        <div className={styles.myh3}> Find me </div>
         {/* anchor'd icons to go to my sosh mead */}
         <ul className={styles.list}> 
             {Object.keys(rest).map( (key,index) => 

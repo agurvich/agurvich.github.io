@@ -61,15 +61,15 @@ function Sidebar(){
                 {name}
             </div>
             <div style={{marginTop:"25px"}}>
-                data scientist 
                 <hr style={{width:"25%"}}/>
-                visualization specialist
+                data-viz specialist <br/><a href="https://science.gsfc.nasa.gov/sed/bio/alexander.b.gurvich" target="_blank"> NASA Goddard </a> 
+                & <a href="https://svs.gsfc.nasa.gov/" target="_blank"> SVS </a>
                 <hr style={{width:"25%"}}/>
-                HPC and web software engineer 
+                HPC & fullstack web software dev 
                 <hr style={{width:"25%"}}/>
                 Ph.D. Computational Astrophysics & Data Visualization
-                <hr style={{width:"25%"}}/>
-                <Link href="CurrentCV.pdf" target='_blank'>CV</Link>
+                {/* <hr style={{width:"25%"}}/>
+                <Link href="CurrentCV.pdf" target='_blank'>CV</Link>*/}
             </div>
         </header>
 
