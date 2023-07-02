@@ -78,6 +78,33 @@ As the one who originally made the suggestion I, naturally, was assigned to lead
 ## Building a network graph theory approach to mentorship
 So, with that background out of the way, let's get to the data science of the post.
 
+Our base "problem" was that we wanted to create a social network where people inhabited two different roles. 
+It's pretty similar to 
+<a href="https://en.wikipedia.org/wiki/Stable_marriage_problem" target="_blank">
+the stable marriage problem
+</a>
+in mathematics which involves the pairing of individuals from two equal size groups.
+Indeed the solution we came up with was analogous in some ways to the 
+<a href="https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm" target="_blank">
+Gale-Shapley algorithm
+</a>
+which is a procedure for finding an optimal pairings so that no pair of un-matched participants would be "happier" than they currently are were they matched with each other instead.
+
+However, our problem was a little bit more complex, and so we couldn't use it out of the box. 
+Specifically: 
+
+1. we had five groups: 
+    * undergraduates/post-bacs
+    * graduate students
+    * postdocs
+    * faculty members
+1. the groups were not equally sized
+1. the connection between individuals was not bidirectional-- mentors had to have a hierarchy level (we'll refer to this as _rank_ later on) higher than their paired mentee (i.e. a graduate student can't mentor a faculty member in this system)
+1. we allowed each individual to specify the number of mentors and mentees from each role they requesting/able to take. This allowed for multiple pairings but also meant we were unlikely to perfectly satisfy everyone's request.
+
+Given these extra factors, we had our work cut out for us. 
+Enter network graph theory.
+
 Network graph theory is a mathematical approach to understanding the relationships and connections between different entities (e.g. people, in this case).
 In a network graph, entities are represented as 
 <a href="https://en.wikipedia.org/wiki/Graph_theory#:~:text=In%20mathematics%2C%20graph%20theory%20is,also%20called%20links%20or%20lines" target="_blank">_nodes_</a>
@@ -103,7 +130,13 @@ In terms of the mentoring network, a community would be a "pod" of mentors and m
 1. Optimize the mentorship matching process:
 using these quantitative metrics we could use a linear combination of the other metrics to define a single combined metric, or 
 <a href="https://en.wikipedia.org/wiki/Loss_function" target="_blank"> cost function</a>, which maps the network to a number corresponding to how "good" the network is. 
-Once we were able to define a cost function then our complex problem of matching mentors to mentees became a simple optimization problem. 
+In this case, what defined good was how many: 
+
+    * two-way preferred matches were made
+    * one-way preferred matches were made
+    * communities there were
+    * "extra" spots each mentor had on average (we wanted to maximize this to avoid designating someone a "super-mentor" and overwhelming them!)
+    * "missing" spots each mentee had on average (we wanted to minimize this to avoid a "black sheep mentee" who was left out of the matching process if it produced better group metrics overall)
 
 Having setup our optimization problem all that remained was to generate candidate networks. 
 We decided on a pseudorandom approach, the details of which I'll describe in the next section since we expected that an exhaustive search of every possible mentor matching would take too long (more on that in a second). 
@@ -117,51 +150,83 @@ So yeah, not really an option.
 
 ## Implementing the matching algorithm on real data
 
-<figure >
+<figure id="mentor_diagram">
   <img src="images/mentorship/mentoring_system_diagram.png" >
   <figcaption>
+  A flowchart detailing the big picture layout of our mentor matching system. 
+  In situations where the "start point" might not be clear the start point is outlined in black (1. mentee/mentor; 2. read form data; 3. direct matches). 
   </figcaption>
 </figure>
 
-### cloud infrastructure
-* new google account
-* separate google forms + form ranger add-on
-* we used co-lab to run the results so we didn't have to look at people's preferences directly or store data on local computers
+### Software infrastructure considerations
+Since we knew our use case would be relatively small (there were a maximum of ~100 people in our department) we didn't have to think too hard about scaling deployment. 
+That led us to do what was simplest so we could get something running and off the ground, and it worked for the most part. 
+One of our most important considerations was that we didn't want to store people's sensitive mentor/mentee preference data on any of our local computers. 
+We also wanted to set up a pipeline that would (eventually) process the data without us needing to look at it directly (so as to minimize any privacy concerns participants might have). 
+With those in mind, we decided on the following:
+  * a shared google drive where we could all access the data
+  * separate google forms for signing up to be a mentee vs. a mentor (a single person could, and was encouraged to, fill out both)
+  * a public
+<a style="color: rgb(0, 152, 20);" href="https://github.com/CIERA-Northwestern/JEDI_ext_mentorship"> Github repository</a>
+to host our matching code.
+
+  * a Google co-lab notebook to run the code. 
+
+One thing that stands out in particular is that we were also concerned about using open ended input for people to select individuals to avoid/prefer by name. 
+What if they misspelled someone's name? 
+What if they used a nickname? 
+To address this issue, I did a bit a research and found 
+<a style="color: rgb(0, 152, 20);" href="https://workspace.google.com/marketplace/app/form_ranger/387838027286"> Form Ranger</a>
+which allowed us to populate the Google forms with multiple choice checkboxes that were automatically synced to a Google form that contained the department's directory. 
+This meant that participants were presented with all the options in a fixed format and we didn't have to type them out manually-- a win-win!
+
+### Setting up the data input forms
+<figure id="form-input" class="right-figure" >
+  <img src="images/mentorship/undergrad_mentee.png" >
+  <img src="images/mentorship/postdoc_mentee.png" >
+  <figcaption>
+  Our department mentorship BBQ, mentees and mentors met and we welcomed the incoming class of graduate students.
+  </figcaption>
+</figure>
+
+This was fairly straightforward once we got Form Ranger configured (which in the end was pretty difficult and I'm pretty sure I'm still the only one who knows how to do it... so yikes).
+We structured the forms so that participants would answer the first question ("What is your current role?") and the rest of the form would be customized to present them only with multiple choice options that made sense for them (i.e. undergrads would not be asked how many faculty they wanted to mentor).
+You can see an example of that in the [screengrabs](#form-input) over on the right.
+Since Google forms can be connected to existing Google sheets we piped the output of both the mentee and mentor forms to different tabs of the directory sheet which was supplying Form Ranger with the multiple choice options for people to express their preferences (just to keep everything in one place).
+
+### Parsing and validating the data
+This was pretty easy since we made everything multiple choice and customized questions by role with separate questions. 
+That translated to different columns of the spreadsheet representing the responses from undergrads, grads, postdocs, and faculty-- and I didn't have to worry about improperly formatted data!
+The one thing that I did have to check was whether the participant who submitted the form actually was the role they identified themselves as, and we let them type in their own names (since making them pick from a dropdown felt kind of weird). 
+But since we had people log into the form using their university email addresses it was easy enough to  match that to the directory.
+Having people authenticate with their university email also handled the security issue where people could respond for someone.
+
+Co-lab allows you to read Google sheets just like .csvs, so I could get the data using `pandas` no problem.
+From there I threw together a `Person` class which stored people's preferences and their requests split into role (i.e. a faculty member might be willing to mentor a maximum of 2 undergrads 1 grad 1 postdoc 0 faculty).
+I put an arbitrary cap of 6 mentees per mentor since I figured no one could _really_ mentor more than 6 people (but it's a global variable so it's easy to change if someone in the future is more/less optimistic than I am).
+Once all the participants were loaded in as `Person`s, I went off to the races to start generating candidate networks.
+
+## Generating candidate networks
+We generated networks by successive _matching rounds_ where each mentee is matched to a single mentor round-robin style.
+More junior mentees, as well as those who requested fewer mentors, were put at the beginning of the list to make sure they were prioritized before mentors "filled up" their available slots.
+But before starting any traditional matching rounds we first did a direct matching round to find any situations where a mentor and mentee both indicating that they preferred one another. 
+By front loading these scenarios and handling them explicitly it made sure that there was a mechanism to manually "force" any matches in the future (for example if someone wanted to continue their mentoring relationship from a previous iteration of the program).
+
+The structure of a typical matching round proceeds as follows. 
+For each mentee we:
+
+1. Firstly, the `check_mentor_available` method verifies whether a mentor can accept a new mentee. It checks two conditions: whether the mentor's current mentee count is less than the maximum global limit (`n_mentees_max`), and whether the number of mentees in a specific role is less than the maximum number for that role (`n_role_mentees`). If both conditions are satisfied, the mentor is considered available.
+
+1. Next, the `check_mentor_needed` method determines if a mentee needs a mentor in a particular role. It checks if the number of mentors in a specific role is less than the mentee's required number for that role. If the mentee's role matches the mentor's role, it further checks that the mentor's years of experience exceed the mentee's by more than a year. This latter condition seems designed for peer mentoring, where the mentor should have significantly more experience.
+
+1. In the `find_mentor` function, an appropriate mentor for a given mentee is identified from a list of available mentors. The function prefers mentors who either are on the mentee's preferred list or who have the mentee on their preferred list, otherwise it selects an alternative mentor.
+
+1. The `check_compatability` method assesses compatibility between mentors and mentees. It verifies that neither the mentor nor the mentee is on the other's "avoid" list and that no existing mentor-mentee relationship exists between the two. It ensures that the system does not pair participants who have expressed a desire to avoid each other or who are already matched.
+
+1. The function `add_relationship` is responsible for updating the matching status of mentors and mentees and updating the network to reflect the new mentor-mentee relationship. 
 
 
-code is available on
-<a href="https://github.com/CIERA-Northwestern/JEDI_ext_mentorship"> Github</a>.
-
-### parsing and validating data
-
-### building the network
-
-analogous in some ways to the https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm
-
-The provided code is a part of a larger Python object used for a mentor-mentee matching program. The system's primary task is to assign mentors to mentees based on various factors such as availability, role requirements, compatibility, and preferences, among other factors. 
-
-The code implements several methods, the majority of which are housed within an object, presumably a `Person` class given the context, representing individual participants in the mentoring program. The participants can either be mentors or mentees. 
-
-Firstly, the `check_mentor_available` method verifies whether a mentor can accept a new mentee. It checks two conditions: whether the mentor's current mentee count is less than the maximum global limit (`n_mentees_max`), and whether the number of mentees in a specific role is less than the maximum number for that role (`n_role_mentees`). If both conditions are satisfied, the mentor is considered available.
-
-Next, the `check_mentor_needed` method determines if a mentee needs a mentor in a particular role. It checks if the number of mentors in a specific role is less than the mentee's required number for that role. If the mentee's role matches the mentor's role, it further checks that the mentor's years of experience exceed the mentee's by more than a year. This latter condition seems designed for peer mentoring, where the mentor should have significantly more experience.
-
-The `check_compatability` method assesses compatibility between mentors and mentees. It verifies that neither the mentor nor the mentee is on the other's "avoid" list and that no existing mentor-mentee relationship exists between the two. It ensures that the system does not pair participants who have expressed a desire to avoid each other or who are already matched.
-
-`reduce_full_tables` is a standalone function that processes and validates input data, primarily concerning participant preferences. It reads in data from the names, mentees, and mentors DataFrame and prepares it for matching by validating, cleaning, and processing this data. It generates a dictionary of `Person` instances, indexed by names, for easier lookup. The function also accounts for any errors, like missing names or incorrect data, and normalizes names for easier comparison. 
-
-The `generate_network` function is the primary function driving the mentor-mentee matching process. It calls `reduce_full_tables` to get the prepared participants data, creates an empty directed multigraph network using the NetworkX package to represent the mentor-mentee relationships, and runs a series of matching rounds until either no mentors or mentees remain to be matched or a maximum number of rounds are completed.
-
-In the function `direct_matching`, direct matches are attempted, pairing mentees with mentors when both have expressed a preference for each other and the compatibility and availability conditions are met. After this, the matching rounds proceed with the `matching_round` function. 
-
-The `matching_round` function sorts mentors and mentees according to specific criteria to prioritize the matching. It matches each mentee to a suitable mentor by invoking the `find_mentor` function. The matching process prioritizes preferred mentors and those who express preference for the mentee over other available and compatible mentors.
-
-In the `find_mentor` function, an appropriate mentor for a given mentee is identified from a list of available mentors. The function prefers mentors who either are on the mentee's preferred list or who have the mentee on their preferred list, otherwise it selects an alternative mentor.
-
-The function `add_relationship` is responsible for updating the matching status of mentors and mentees and updating the network to reflect the new mentor-mentee relationship. 
-
-The algorithm behind this code is designed to create an optimal pairing of mentors and mentees within a mentoring program, based on their respective needs, preferences, and roles
-
+### Issues
 Finally, it's important to mention that the overall quality of the matches made by this algorithm largely depends on the quality and accuracy of the input data — specifically, the preferences and 'avoid' lists of mentors and mentees. This means that the success of the matching process hinges on the participants' ability to identify and express their preferences accurately and honestly.
 
 It should be noted that while this algorithm takes a significant number of factors into account, it doesn't consider some potential elements such as personality compatibility, specific interests, or other softer aspects that might influence the success of a mentor-mentee relationship. However, these aspects could potentially be incorporated into the preference data with careful design of the data collection process.
