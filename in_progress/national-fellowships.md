@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "National fellowships"
+title: "Where do national fellowships for astronomy go?"
 date: "2023-06-15 00:00:00-06:00"
+description: "Have you ever wondered whether national resources for supporting astronomy researchers are distributed equitably? Look no further. Spoiler: they aren't."
 img: fellowship_bubble.png # Add image post (optional)
-tags: [dataviz,astronomy] # add tag
+tags: [dataviz] # add tag
 ---
 
 ## The question
