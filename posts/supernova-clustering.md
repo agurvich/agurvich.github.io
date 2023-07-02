@@ -4,7 +4,7 @@ title: "A statistical approach to studying stellar feedback"
 date: "2017"
 description: "As part of a class project I built a statistical model to understand and simplify our the results of our supercomputer simulation and apply them in other contexts at less (computational) cost."   # Add post description (optional)
 img: clustering_diagram.png # Add image post (optional)
-tags: [statistics,astronomy] # add tag
+tags: [datasci,astronomy] # add tag
 ---
 
 Stellar feedback is an important aspect of galaxy formation.
