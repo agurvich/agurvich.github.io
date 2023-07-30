@@ -6,7 +6,7 @@ module.exports = {
     images:{
         unoptimized:true
     },
-    basePath: '/node_blog',
-    assetPrefix: '/node_blog/',
+    basePath: '',
+    assetPrefix: '',
     // ... other configurations
   }

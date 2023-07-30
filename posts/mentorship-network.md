@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using graph theory to benefit mentorship: a case study on using data science to impact department climate"
-date: "2022"
+date: "2023-07-30 10:00:00-06:00"
 description: As one of the leaders of my department's Mentorship Action Team I designed and implemented a framework using network graph theory for optimizing mentor-mentee assignments into a complex hierarchical social network.
 img: mentorship/mentorship.png # Add image post (optional)
 tags: [dataviz, datasci] # add tag
