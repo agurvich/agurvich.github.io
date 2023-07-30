@@ -1,0 +1,26 @@
+.right-figure, .left-figure{
+    width:50%;
+    height:auto;
+    margin:10px
+
+}
+
+.right-figure{
+    float:right;
+}
+
+.left-figure{
+    float:left;
+}
+
+
+@media (max-width: 768px) {
+
+.right-figure, .left-figure{
+    float:unset;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+}
