@@ -183,9 +183,11 @@ This meant that participants were presented with all the options in a fixed form
 ### Setting up the data input forms
 <figure id="form-input" class="right-figure" >
   <img src="images/mentorship/undergrad_mentee.png" >
+  <hr>
+  <hr>
   <img src="images/mentorship/postdoc_mentee.png" >
   <figcaption>
-  Our department mentorship BBQ, mentees and mentors met and we welcomed the incoming class of graduate students.
+  Snippets of the data input forms from the perspective of an undergrad (top) and a postdoc (bottom). 
   </figcaption>
 </figure>
 
@@ -215,49 +217,60 @@ By front loading these scenarios and handling them explicitly it made sure that 
 The structure of a typical matching round proceeds as follows. 
 For each mentee we:
 
-1. Firstly, the `check_mentor_available` method verifies whether a mentor can accept a new mentee. It checks two conditions: whether the mentor's current mentee count is less than the maximum global limit (`n_mentees_max`), and whether the number of mentees in a specific role is less than the maximum number for that role (`n_role_mentees`). If both conditions are satisfied, the mentor is considered available.
+1. Firstly, loop through each mentor and `check_mentor_available` to verify whether that mentor can accept a new mentee of the specific role.
+It checks two conditions: whether the mentor's current mentee count is less than the maximum global limit (`n_mentees_max`), and whether the number of mentees in a specific role is less than the maximum number for that role (`n_role_mentees`) specified in the form input.
+If both conditions are satisfied, the mentor is considered "available".
 
-1. Next, the `check_mentor_needed` method determines if a mentee needs a mentor in a particular role. It checks if the number of mentors in a specific role is less than the mentee's required number for that role. If the mentee's role matches the mentor's role, it further checks that the mentor's years of experience exceed the mentee's by more than a year. This latter condition seems designed for peer mentoring, where the mentor should have significantly more experience.
+1. Next, the `check_mentor_needed` method determines if the mentee actually needs a mentor in the mentor's particular role.
+It checks if the number of mentors in each role is less than the mentee's requested number for that role.
+If the two roles match we further checks that the mentor's years of experience exceed the mentee's by at least a year (to enforce that someone requesting a mentor of the same role doesn't get assigned someone more junior than them with less experience).
 
-1. In the `find_mentor` function, an appropriate mentor for a given mentee is identified from a list of available mentors. The function prefers mentors who either are on the mentee's preferred list or who have the mentee on their preferred list, otherwise it selects an alternative mentor.
+1. After that, we `find_mentor` from the list of available mentors.
+We first prioritize any mentors in the available mentor list that are on the mentee's preferred list. 
+We next prioritize mentors who have listed the mentee on their preferred list.
+Note that the case where they prefer each other has already been handled. 
+If there are no relevant preferences then we select a random mentor.
 
-1. The `check_compatability` method assesses compatibility between mentors and mentees. It verifies that neither the mentor nor the mentee is on the other's "avoid" list and that no existing mentor-mentee relationship exists between the two. It ensures that the system does not pair participants who have expressed a desire to avoid each other or who are already matched.
+1. Before assigning the mentor, we `check_compatability`.
+This function verifies that neither the mentor nor the mentee is on the other's "avoid" list and that there isn't already an existing mentor-mentee relationship between them.
 
-1. The function `add_relationship` is responsible for updating the matching status of mentors and mentees and updating the network to reflect the new mentor-mentee relationship. 
-
+1. Finally, we `add_relationship` to update the match status of the selected mentor and mentee in the and the network to reflect the new relationship. 
+We then move on to the next mentee and repeat the process.
+Using this round-robin approach we ensure that mentors are spreadly more evenly across the mentee population rather than being concentrated amongst a few mentees who have all of their requests fulfilled (while others have many unfulfilled requests).
 
 ### Issues
-Finally, it's important to mention that the overall quality of the matches made by this algorithm largely depends on the quality and accuracy of the input data — specifically, the preferences and 'avoid' lists of mentors and mentees. This means that the success of the matching process hinges on the participants' ability to identify and express their preferences accurately and honestly.
+It's important to mention that the overall quality of the matches made by this algorithm largely depends on the quality and accuracy of the input data — specifically, the preferences and 'avoid' lists of mentors and mentees. This means that the success of the matching process hinges on the participants' ability to identify and express their preferences accurately and honestly.
 
 It should be noted that while this algorithm takes a significant number of factors into account, it doesn't consider some potential elements such as personality compatibility, specific interests, or other softer aspects that might influence the success of a mentor-mentee relationship. However, these aspects could potentially be incorporated into the preference data with careful design of the data collection process.
 
-## Section 4: The Impact and Future of the Hierarchical Mentorship Network
-hopefully the remaining members of the MAT will put together a white paper on the results from feedback.
+## The Impact and Future of the Hierarchical Mentorship Network
+The impact of the program is hard to measure after only a little less than a year of operation. 
+We were planning to solicit feedback from the participants as I was finishing my thesis, and so I suspect the current members of the MAT may know more than I do!
+What I can say, however, is that every mentor/mentee pair met at least once and most are continuing to meet, as far as I've heard. 
+As well, the monthly lunches were consistently well attended and conversation was productive and insightful. 
+Lastly, just as I was leaving, the department filled out a climate survey and the preliminary results I've seen singled out the mentorship program as a successful demonstration of the department's commitment to improving the climate. 
 
-Share anecdotes or quantitative data on the impact of the new mentorship structure
-Discuss the potential for scalability and adaptation to other organizations or fields
-Explore future improvements or enhancements to the mentorship network and matching algorithm
-Conclusion:
-Summarize the main points of the blog post and emphasize the importance of building comprehensive mentorship networks that cater to the diverse needs of mentees. Encourage readers to consider implementing similar systems in their own organizations or communities to promote social justice and advocacy.
+In terms of the future, the MAT planned to move forward expanding the network to include the new batch of incoming first year students and to add mentorship "categories" for people to select the sort of topics they would be interested in receiving mentorship in. 
 
-### 4.1 other network graph theory metrics
-* Degree Centrality: In network graph theory, degree centrality measures the number of connections a node has. In a mentorship network, a mentor or mentee with high degree centrality would be connected to many others. A mentor with high degree centrality could be a highly sought-after advisor, while a mentee with high degree centrality might be involved in various projects and seeking guidance from multiple mentors.
+### Applicability and scalability to other fields
+Conceptually, the network is generally applicable to contexts much broader than an academic department. 
+Any situation where there are multiple hierarchies of people where cross-hierarchy mentorship would be valuable could benefit from our approach. 
+For our population size of ~50-100 we didn't encounter any performance issues with our Monte-Carlo based approach.
+With larger populations I suspect you'd need larger samples of networks before being able to confidently identify an "optimal" one; but this isn't something we explicitly explored quantifying.  
 
-* Betweenness Centrality: This metric measures the extent to which a node acts as a "bridge" between other nodes in the network. In a mentorship network, a mentor or mentee with high betweenness centrality might connect different groups or sub-networks within the larger network. Such individuals could play a crucial role in facilitating communication and collaboration across different research areas or sub-disciplines.
+## Closing thoughts 
+It is fairly uncontroversial to suggest that good mentorship is a crucial aspect of success; academic, professional, or anything else. 
+But efficiently leveraging different levels of particpants' expertise in a mentorship program in order to maximize group benefit is a hard problem to solve. 
+We came at the problem from the perspective of an academic department with a clearly delimited hierarchy based off career stage. 
+While there are certainly analogues in other contexts, there's a bit of a cultural uniqueness factor to academia that is inherited from the old "master and apprentice" model of ye olde yesteryear that underlies some of the goals of our solution. 
 
-* Closeness Centrality: Closeness centrality measures how easily a node can reach other nodes in the network. In a mentorship network, a mentor or mentee with high closeness centrality would be able to access a wide range of expertise and knowledge within the network with relatively few intermediaries. This could be beneficial for mentees seeking diverse perspectives and guidance in their development.
+Regardless, I believe our network graph theory approach to building interconnected networks of hierarchical mentorship pairs does a pretty good job of creating a positive culture of mentorship. 
+At the very least, it shows a demonstrated intent and effort that can help set cultural norms for the department. 
+The influence of "we as a community care about this enough to try" shouldn't be underestimated (though it should never be the stopping point).
+Time will tell if our specific implementation for this specific community is a boom, bust, or something in between. 
+In any case, I'm proud of the effort I put into trying to leave the department a better place than I found it. 
+I feel like caring enough to try should mean something. 
 
-* Clustering Coefficient: This metric quantifies the extent to which the neighbors of a node are connected to each other. In a mentorship network, a high clustering coefficient might indicate that a mentee is connected to mentors who are also connected to one another. This could lead to a more cohesive and supportive mentorship environment, as the mentors can collaborate and share insights on the mentee's development.
-
-* Community Detection: In network graph theory, community detection algorithms identify groups of nodes that are more densely connected within the group than with nodes outside the group. In a mentorship network, community detection could help identify clusters of mentors and mentees with similar interests or expertise. This information can be used to create sub-networks or specialized mentorship programs tailored to specific research areas or disciplines.
-
-* Shortest Path: The shortest path between two nodes is the minimum number of edges needed to connect them. In a mentorship network, the shortest path between a mentee and a mentor could represent the most efficient way for the mentee to access the mentor's expertise, possibly through a chain of intermediate connections. This concept can help mentees expand their networks and reach out to mentors they might not have direct connections with initially.
-
-## 4.2 improve matching specificity
-Incorporate additional mentor-mentee compatibility factors: The current algorithm can be expanded to consider other factors that may influence mentor-mentee compatibility, such as communication style, personality traits, work-life balance preferences, or cultural background. These factors can help create more nuanced and personalized matches.
-
-* Weighted preferences: Instead of treating all mentor and mentee preferences equally, the algorithm could allow participants to assign weights to their preferences, indicating their relative importance. This would enable the algorithm to prioritize more critical factors and generate better matches.
-
-Periodic re-matching: The algorithm could incorporate a periodic re-matching feature, enabling mentees to change mentors if their needs or interests change over time or if they find the initial match unsuitable. This feature can enhance the overall mentorship experience and ensure that mentees continue to receive the support they need.
-
-Clustering based on interests or expertise: The algorithm can incorporate clustering techniques to group mentors and mentees based on their interests or expertise. This could help create sub-networks within the larger mentorship network, ensuring that mentees are matched with mentors who have relevant knowledge and experience in their areas of interest.
+<div style="float:right">
+&#9633;
+</div>
