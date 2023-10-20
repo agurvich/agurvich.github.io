@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Storytelling with data at NASA's Earth Information Center"
-img: swd_nasa/swd_nasa.png
+img: swd_nasa.png
 tags: [datasci,dataviz,talks]
 date: "2023-10-19 00:12:00-04:00"
 description: |
