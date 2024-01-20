@@ -8,7 +8,7 @@ description: |
     The 2023 Eclipse Explorer is an interactive web map that allows users to track the annular solar eclipse that occurred on 10/14/2023 over the United States.
 ---
 
-### [This content is reproduced from a blog post that I wrote for NASA](https://science.nasa.gov/solar-system/skywatching/eclipses/solar-eclipses/2023-solar-eclipse/introducing-the-2023-eclipse-explorer-your-interactive-guide-to-the-2023-annular-solar-eclipse/)
+### [This content is reproduced from a blog post that I wrote for NASA](https://science.nasa.gov/solar-system/skywatching/eclipses/solar-eclipses/2023-solar-eclipse/introducing-the-2023-eclipse-explorer-your-interactive-guide-to-the-2023-annular-solar-eclipse/) the most up-to-date version of the Eclipse Explorer can be found at [https://svs.gsfc.nasa.gov/webapps/eclipse-explorer](https://svs.gsfc.nasa.gov/webapps/eclipse-explorer).
 
 Have you ever wondered how to track an eclipse down to the exact second? NASA has you covered! As the countdown to the highly anticipated Oct. 14, 2023, annular solar eclipse continues, NASA is proud to unveil the Eclipse Explorer – an interactive map designed to enhance your eclipse-viewing experience. Crafted to complement our existing static eclipse maps, this tool enables users to dive into this amazing celestial event like never before.
 
