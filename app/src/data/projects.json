@@ -1,0 +1,92 @@
+[
+    {
+        "category": "Data Science",
+        "name": "Earth.gov",
+        "description": "Public-facing interagency data portal for high-level actionable datasets.",
+        "demo_link": "https://Earth.gov",
+        "repo_link": "https://github.com/NASA-IMPACT/veda-config-eic",
+        "writeup": "",
+        "image": "earth_gov_sq.png"
+    },
+    {
+        "category": "Data Visualization",
+        "name": "Firefly",
+        "description": "Firefly is a cutting-edge 3D browser-based, interactive, data visualization software designed for tens of millions of datapoints.",
+        "demo_link": "https://firefly.rcs.northwestern.edu/",
+        "repo_link": "https://github.com/agurvich/Firefly",
+        "writeup": "firefly.md",
+        "image": "four_view_banner.png"
+    },
+    {
+        "category": "Data Visualization",
+        "name": "Eclipse Explorer",
+        "description": "The 2023 Eclipse Explorer is an interactive web map that allows users to track the annular solar eclipse that occurred on 10/14/2023 over the United States.",
+        "demo_link": "https://svs.gsfc.nasa.gov/webapps/eclipse-explorer",
+        "repo_link": "",
+        "writeup": "eclipse-explorer.md",
+        "image": "eclipse-explorer/eclipse-explorer-header.png"
+    },
+    {
+        "category": "Data Visualization",
+        "name": "Climate Legacies",
+        "description": "Interactive visualization of the generational divide in climate impacts.",
+        "demo_link": "https://svs.gsfc.nasa.gov/webapps/climate-legacies",
+        "repo_link": "",
+        "writeup": "",
+        "image": "climate-legacies.png"
+    },
+    {
+        "category": "Software Engineering",
+        "name": "WIND",
+        "description": "WIND is a CUDA library I built to numerically integrate stiff systems of coupled ODEs-- in particular interstellar chemical abundance networks.",
+        "demo_link": "",
+        "repo_link": "https://github.com/agurvich/WIND",
+        "writeup": "wind-chimes.md",
+        "image": "chimes_network.png"
+    },
+    {
+        "category": "Data Visualization",
+        "name": "Firefly Gaia DR3",
+        "description": "Designed a massively parallel algorithm and progressive rendering scheme to visualize all 1.5 billion+ stars observed by the Gaia satellite.",
+        "demo_link": "https://firefly.rcs.northwestern.edu/GaiaDR3/",
+        "repo_link": "https://github.com/agurvich/Firefly",
+        "writeup": "firefly-gaia-dr3.md",
+        "image": "firefly/gaia_lane.png"
+    },
+    {
+        "category": "Data Visualization",
+        "name": "FIRE Studio",
+        "description": "A visualization package I created to streamline the process of producing publication-quality images of galaxy formation simulation data.",
+        "demo_link": "",
+        "repo_link": "https://github.com/agurvich/fire_studio",
+        "writeup": "FIRE-studio.md",
+        "image": "firestudio.png"
+    },
+    {
+        "category": "Data Science",
+        "name": "Supernova Clustering",
+        "description": "Built a statistical model to understand and simplify the results of our supercomputer simulation and apply them in other contexts at less (computational) cost.",
+        "demo_link": "",
+        "repo_link": "",
+        "writeup": "supernova-clustering.md",
+        "image": "clustering_diagram.png"
+    },
+    {
+        "category": "Data Science",
+        "name": "Stellar Feedback",
+        "description": "Everyone knows about the sun, fewer people know where it came from and how other stars might've influenced its formation.",
+        "demo_link": "",
+        "repo_link": "",
+        "writeup": "stellar-feedback.md",
+        "image": "sombrero-galaxy.jpeg"
+    },
+    {
+        "category": "Data Science",
+        "name": "Mentorship Network",
+        "description": "Designed and implemented a framework using network graph theory for optimizing mentor-mentee assignments into a complex hierarchical social network.",
+        "demo_link": "",
+        "repo_link": "",
+        "writeup": "mentorship-network.md",
+        "image": "mentorship/mentoring_system_diagram.png"
+    }
+]

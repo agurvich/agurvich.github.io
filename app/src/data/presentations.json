@@ -1,0 +1,86 @@
+[   
+    {
+        "category": "",
+        "upcoming":true,
+        "name": "AGU 2024",
+        "image":"AGU24.jpg",
+        "description": "From Global Models to Local Impacts: Interactive 'Explor-anatory' Visualization of CMIP Data for Museumgoers",
+        "slides_link": "",
+        "recording_link": ""
+    },{
+        "category": "",
+        "upcoming":true,
+        "name": "RGov 2024",
+        "image":"RGov24.png",
+        "description": "Using Visual Presentation to Find Patterns in Data & Drive Insight",
+        "slides_link": "media/visual-perception-rgov.pdf",
+        "recording_link": ""
+    },{
+        "category": "",
+        "name": "Talking Data Equity",
+        "image":"TalkingDataEquityLogo.jpeg",
+        "description":"Communicating Actionable Earth Science at the Earth Information Center",
+        "slides_link": "media/eic_outlier.pdf",
+        "recording_link": "https://youtu.be/zMTy_OiiT78"
+    },{
+        "category": "Data Science",
+        "name": "Outlier 2024",
+        "image":"Outlier24.png",
+        "description":"Communicating Actionable Earth Science at the Earth Information Center",
+        "slides_link": "media/eic_outlier.pdf",
+        "recording_link": "https://youtu.be/FuISCasPEks"
+    },{
+        "category": "Data Science",
+        "name": "Data Viz DC",
+        "image":"DVDCLogo.png",
+        "description":"Communicating Actionable Earth Science at the Earth Information Center",
+        "slides_link": "media/eic_dvdc.pdf"
+    },{
+        "category": "Data Science",
+        "name": "AMS 2024",
+        "image":"AMS24.png",
+        "description": "Eclipse Explorer",
+        "slides_link": "media/gurvich_swd_nasa.pdf"
+    },{
+        "category": "",
+        "name": "RGov 2023",
+        "image":"RGov23.png",
+        "description": "Storytelling with Data at NASA's Earth Information Center",
+        "slides_link": "media/gurvich_swd_nasa.pdf"
+    },{
+        "category": "",
+        "name": "Data Science DC",
+        "image":"DSDCLogo.png",
+        "description": "Storytelling with Data at NASA's Earth Information Center",
+        "slides_link": "media/lightning_swd_nasa.pdf",
+        "recording_link": "https://youtu.be/WtB7fmkDHqk"
+    }, {
+        "category": "Data Science",
+        "hidden":true,
+        "name": "AAS Journal Series",
+        "description": "Firefly: the paper title",
+        "slides_link": "",
+        "recording_link": "https://www.youtube.com/watch?v=xtX2VlL3zkc"
+    }, {
+        "category": "Data Science",
+        "hidden":true,
+        "name": "Astronomy on Tap: Chicago",
+        "description": "Launching James Webb",
+        "slides_link": "media/gurvich_swd_nasa.pdf",
+        "recording_link": "https://www.youtube.com/watch?v=xtX2VlL3zkc"
+    }, {
+        "category": "Data Science",
+        "hidden":true,
+        "name": "Inside the SkEv with Aaron Masliansky",
+        "description": "Alex & Gretchen from CIERA",
+        "slides_link": "",
+        "recording_link": "https://www.youtube.com/watch?v=xtX2VlL3zkc"
+    }, {
+        "category": "Data Science",
+        "hidden":true,
+        "name": "CIERA Astronomy LIVE",
+        "description": "Aliens Among Us",
+        "slides_link": "media/gurvich_swd_nasa.pdf",
+        "recording_link": "https://www.youtube.com/watch?v=xtX2VlL3zkc"
+    }
+]
