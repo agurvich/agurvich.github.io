@@ -37,6 +37,7 @@
         "slides_link": "media/eic_dvdc.pdf"
     },{
         "category": "Data Science",
+        "hidden":true,
         "name": "AMS 2024",
         "image":"AMS24.png",
         "description": "Eclipse Explorer",

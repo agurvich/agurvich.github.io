@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && rsync -avhP --delete dist/* ../docs && cp ../CNAME ../docs",
+    "build": "vite build && rsync -avhP --delete dist/* ../docs && cp ../CNAME ../docs && git add ../docs/assets && git commit -a",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
