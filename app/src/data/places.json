@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin, Texas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.7431, 30.2672]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronkonkoma, Long Island, NY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.1106, 40.8157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pittsburgh, PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.9959, 40.4406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago, IL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington, DC",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0369, 38.9072]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston, MA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0589, 42.3601]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Palm Beach, FL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.0534, 26.7153]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        // Add specific settings here as required by the package
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [ "./src/*" ]
+        }
+    }
+}

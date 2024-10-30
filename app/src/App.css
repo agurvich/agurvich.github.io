@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    body, div, p, h1, h2, h3, h4, h5, h6, ul, li {
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
+
+    #root {
+        margin: 0 0;
+        padding: 0rem;
+        text-align: center;
+    }
+    html {
+        scroll-padding-top: 300px; /* Height of your fixed navbar */
+    }
+
+    h1, h2, h3, h4 {
+        @apply font-bold;
+        @apply mb-4;
+    }
+    h1 { @apply text-4xl; }
+    h2 { @apply text-3xl; }
+    h3 { @apply text-2xl; }
+    h4 { @apply text-xl; }
+
+}
+
+@layer components{
+    .generic-card{
+        @apply rounded-lg;
+        @apply bg-background-contrast;
+        @apply text-contrast;
+        @apply p-2;
+        @apply border-none;
+        @apply w-full;
+        @apply h-full;
+    }
+
+    .square-card{
+        @apply w-full;
+        @apply flex;
+        @apply flex-col;
+        @apply items-center;
+        @apply bg-white;
+        @apply rounded-lg;
+        @apply shadow-md;
+        @apply transition-all;
+        @apply duration-200;
+        @apply hover:-translate-y-2;
+        @apply hover:shadow-lg;
+        @apply bg-cover;
+        @apply bg-center;
+        @apply aspect-square;
+        @apply w-60;
+    }
+
+    .square-card-inner{
+        @apply p-2;
+        @apply opacity-0 hover:opacity-100;
+        @apply transition-all duration-500;
+        @apply w-full h-full;
+        @apply bg-opacity-75;
+        @apply text-white;
+        @apply flex flex-col;
+        @apply justify-between;
+    }
+
+        .upcoming {
+            position: relative;
+            /* Other card styling here */
+        }
+        
+        .upcoming::after {
+            content: "Upcoming!";
+            position: absolute;
+            top: 3.65em;
+            right: -3.35em;
+            @apply origin-top-right;
+            @apply px-8;
+            @apply pt-8;
+            @apply pb-1;
+            rotate:45deg;
+            background-color: rgba(0, 0, 0, 0.75); /* Shaded background */
+            color: #fff;
+            font-size: 0.9em;
+            font-weight: bold;
+            border-radius: 0.2em;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+            pointer-events: none;
+            /* Make sure it reaches the corner */
+            width: max-content;
+        }
+}
+
+.markdown-render{
+    .right-figure, .left-figure{
+        @apply p-4 h-auto w-1/2;
+        box-sizing:border-box;
+    }
+
+    .right-figure{
+        float:right;
+    }
+
+    .left-figure{
+        float:left;
+    }
+
+    @media (max-width: 768px) {
+        .right-figure, .left-figure{
+            float:unset;
+            padding-left:unset;
+            padding-right:unset;
+            width:80%;
+            margin-left:10%;
+            margin-right:10%;
+        }
+    }
+
+    h1 { @apply my-4; }
+    h2 { @apply my-2; }
+}

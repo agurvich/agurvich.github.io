@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --brand: hsl(207, 90%, 54%);
+        --error: hsl(0, 81%, 58%);
+        --warning: hsl(42, 82%, 56%);
+        --success: hsl(162, 95%, 48%);
+        --text-contrast: hsla(0, 0%, 4.9%, 1);
+        --icon-contrast: hsla(0, 0%, 4.9%, 0.6);
+        --stroke-contrast-strong: hsla(0, 0%, 4.9%, 0.45);
+        --stroke-contrast-weak: hsla(0, 0%, 4.9%, 0.1);
+        --background-contrast: hsla(0, 0%, 4.9%, 0.1);
+        --fill-contrast: hsla(0, 0%, 4.9%, 0.05);
+        --text-neutral: hsla(0, 0%, 100%, 1);
+        --icon-neutral: hsla(0, 0%, 100%, 0.8);
+        --stroke-neutral-strong: hsla(0, 0%, 100%, 0.8);
+        --stroke-neutral-weak: hsla(0, 0%, 100%, 0.2);
+        --background-neutral: hsla(0, 0%, 100%, 0.1);
+        --fill-neutral: hsla(0, 0%, 100%, 0.05);
+        --text-brand: hsla(207, 90%, 54%, 1);
+        --icon-brand: hsla(207, 90%, 54%, 0.8);
+        --stroke-brand-strong: hsla(207, 90%, 54%, 0.8);
+        --stroke-brand-weak: hsla(207, 90%, 54%, 0.2);
+        --background-brand: hsla(207, 90%, 54%, 0.1);
+        --fill-brand: hsla(207, 90%, 54%, 0.05);
+        --text-error: hsla(0, 81%, 58%, 1);
+        --icon-error: hsla(0, 81%, 58%, 0.8);
+        --stroke-error-strong: hsla(0, 81%, 58%, 0.8);
+        --stroke-error-weak: hsla(0, 81%, 58%, 0.2);
+        --background-error: hsla(0, 81%, 58%, 0.1);
+        --fill-error: hsla(0, 81%, 58%, 0.05);
+        --text-warning: hsla(42, 82%, 56%, 1);
+        --icon-warning: hsla(42, 82%, 56%, 0.8);
+        --stroke-warning-strong: hsla(42, 82%, 56%, 0.8);
+        --stroke-warning-weak: hsla(42, 82%, 56%, 0.2);
+        --background-warning: hsla(42, 82%, 56%, 0.1);
+        --fill-warning: hsla(42, 82%, 56%, 0.05);
+        --text-success: hsla(162, 95%, 48%, 1);
+        --icon-success: hsla(162, 95%, 48%, 0.8);
+        --stroke-success-strong: hsla(162, 95%, 48%, 0.8);
+        --stroke-success-weak: hsla(162, 95%, 48%, 0.2);
+        --background-success: hsla(162, 95%, 48%, 0.1);
+        --fill-success: hsla(162, 95%, 48%, 0.05);
+
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-contrast text-neutral;
+    }
+}
+
+
+@layer utilities{
+    .overlay-base{
+        position:relative
+    }
+    .overlay-base::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease;
+        opacity: 0;
+        border-radius:inherit;
+    }
+    .overlay-base:hover::after {
+        opacity: 1;
+    }
+    .hover-overlay{ @apply overlay-base; }
+
+    .hover-overlay:hover{
+        @apply scale-105;
+    }
+    .hover-overlay::after {
+        background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent overlay */
+    }
+
+    .disabled-overlay{
+        @apply overlay-base;
+        pointer-events:none;
+    }
+    .disabled-overlay::after {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+        opacity:1; /* always enabled */
+    }
+}
