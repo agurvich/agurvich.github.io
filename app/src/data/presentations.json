@@ -36,11 +36,10 @@
         "slides_link": "media/eic_dvdc.pdf"
     },{
         "category": "Data Science",
-        "hidden":true,
         "name": "AMS 2024",
         "image":"AMS24.png",
-        "description": "Eclipse Explorer",
-        "slides_link": "media/gurvich_swd_nasa.pdf"
+        "description": "The NASA Eclipse Explorer 2023 & 2024 Solar Eclipse Edition",
+        "slides_link": "media/AMS_eclipse_explorer.pdf"
     },{
         "category": "",
         "name": "RGov 2023",
