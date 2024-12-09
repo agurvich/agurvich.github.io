@@ -1,11 +1,10 @@
 [   
     {
         "category": "",
-        "upcoming":true,
         "name": "AGU 2024",
         "image":"AGU24.jpg",
         "description": "From Global Models to Local Impacts: Interactive 'Explor-anatory' Visualization of CMIP Data for Museumgoers",
-        "slides_link": "",
+        "slides_link": "media/AGU_hometown_dashboard.pdf",
         "recording_link": ""
     },{
         "category": "",
