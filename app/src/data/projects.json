@@ -45,7 +45,7 @@
         "image": "climate-legacies.png"
     }, 
     {
-        "category": "Data Visualization",
+        "category": "Software Engineering",
         "name": "Firefly Gaia DR3",
         "description": "Designed a massively parallel algorithm and progressive rendering scheme to visualize all 1.5 billion+ stars observed by the Gaia satellite.",
         "demo_link": "https://firefly.rcs.northwestern.edu/GaiaDR3/",
