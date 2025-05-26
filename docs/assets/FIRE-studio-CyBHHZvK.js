@@ -1,5 +1,4 @@
-const e={layout:"post",title:"FIRE Studio",img:"firestudio.png",tags:["astronomy","dataviz","software"],date:"2022",description:`FIRE studio is a visualization package I created to streamline the process of producing publication-quality images of galaxy formation simulation data.
-`},t=`<h2>The importance of compelling scientific visualization</h2>
+const e={},t=`<h2>The importance of compelling scientific visualization</h2>
 <p>The importance of <em>compelling</em> visualizations in scientific publications cannot be overstated.
 It may not seem obvious at first if you're used to thinking of scientists as machines but they're people too!
 In a world overflowing with publications, each is a sales pitch and capturing the attention of your readers is essential if you're going to break through the noise.

@@ -1,5 +1,4 @@
-const e={layout:"post",title:"A statistical approach to studying stellar feedback",date:"2017",description:"As part of a class project I built a statistical model to understand and simplify our the results of our supercomputer simulation and apply them in other contexts at less (computational) cost.",img:"clustering_diagram.png",tags:["datasci","astronomy"]},t=`<p>Stellar feedback is an important aspect of galaxy formation.
-If you want to catch up, check out <a href="stellar-feedback"> my other post</a> on the the topic.
+const e={},t=`<p>Stellar feedback is an important aspect of galaxy formation.
 One thing in particular that is important is how strong the stellar feedback is.
 If it's too weak, it won't do anything and all the gas will turn into stars; too strong and it will blow up the galaxy, ejecting the gas into the furthest reaches of space.
 It's a bit of a Goldilocks situation where stellar feedback has to have <em>just the right amount</em> of oomph to it in order to successfully regulate star formation in galaxies.</p>

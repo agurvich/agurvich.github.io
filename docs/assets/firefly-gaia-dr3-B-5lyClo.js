@@ -1,4 +1,4 @@
-const e={layout:"post",title:"Exploring Gaia DR3 with Firefly",date:"2023-03-16 01:00:00-06:00",description:"I designed a massively parallel algorithm and progressive rendering scheme in order to interactively visualize all 1.5 billion+ stars observed by the Gaia satellite.",img:"firefly/gaia_lane.png",tags:["dataviz","astronomy"]},t=`<p>This is accomplished using a novel data indexing scheme in the PDPP that links the data's position in realspace to its location on disk using an octree.
+const e={},t=`<p>This is accomplished using a novel data indexing scheme in the PDPP that links the data's position in realspace to its location on disk using an octree.
 Using this method, we have visualized all of the stars in Gaia DR3, just over one billion stars.
 Its custom-built octree render engine allows for the exploration of datasets with billions of particles, ensuring smooth navigation even with massive datasets.</p>
 <p>For handling large datasets, Firefly utilizes a progressive rendering scheme that loads data within the camera's field of view.

@@ -1,5 +1,4 @@
-const e={layout:"post",title:"GPU-accelerated chemistry and numerical integration with WIND",img:"chimes_network.png",tags:["software","astronomy"],date:"2019",description:`WIND is a CUDA library I built to numerically integrate stiff systems of coupled ODEs-- in particular interstellar chemical abundance networks.
-`},t=`<h2>Let's talk about interstellar chemistry.</h2>
+const e={},t=`<h2>Let's talk about interstellar chemistry.</h2>
 <p>It may not be obvious that chemistry is really important for how galaxies form and evolve, but it turns out to be a key component in determining how the instellar gas that eventually forms stars cools down and collapses into gravitationally bound clouds.
 When stuff is hanging out in space, it has to lose energy to cool down and the primary way it does that is by emitting light (we call the process &quot;radiative cooling&quot;).
 The rate at which material is able to emit light and cool depends on how hot it is, how dense it is, and what the material is made up of (the chemical composition).
