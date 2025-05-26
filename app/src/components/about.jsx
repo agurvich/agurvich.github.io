@@ -1,6 +1,6 @@
 import useMediaQuery from "@/hooks/use-media-query";
-import { Beaker, BeakerIcon, Microscope } from "lucide-react";
-import { BsBarChartLine, BsCode, BsChat, BsWrench } from "react-icons/bs";
+import { Microscope } from "lucide-react";
+import { BsBarChartLine, BsCode, BsBarChartLineFill, BsLaptopFill } from "react-icons/bs";
 import { FaPython, FaJs } from "react-icons/fa";
 
 
@@ -100,7 +100,7 @@ const Card2 = () => (
             <BsBarChartLine />
         </div>
         <h3 className="text-xl font-semibold mb-2">Data Visualization</h3>
-        <p className="text-gray-600"> Experienced in creating interesting interactive visualizations powered by large datasets that tell meaningful stories.</p>
+        <p className="text-gray-600"> Experienced in creating compelling interactive visualizations that are powered by large datasets and tell meaningful stories.</p>
 
     </Card>
 );
@@ -110,7 +110,7 @@ const Card3 = () => (
             <BsCode />
         </div>
         <h3 className="text-xl font-semibold mb-2">Software and Data Engineering</h3>
-        <p className="text-gray-600"> Always brings a performance-first mindset that comes from the experience of actually using the data, not just building abstract data systems. </p>
+        <p className="text-gray-600"> Focused on bringing a performance-first mindset that comes from the experience of actually using the data, not just building abstract data systems. </p>
     </Card>
 );
 
@@ -129,9 +129,9 @@ const Card5 = () => (
         <h2 className="text-2xl font-semibold mb-4">Skills & Languages I Speak</h2>
         <ul className="list-disc list-inside text-gray-700 grid grid-cols-2 gap-2">
             <div><FaPython className="inline" /> Python</div>
-            <div>C, CUDA</div>
+            <div><BsLaptopFill className="inline"/> C, CUDA</div>
             <div><FaJs className="inline" /> JavaScript<br/> (React, Vite, Next.js)</div> 
-            <div>Data Visualization<br/> (D3, Recharts, Three.js)</div>
+            <div><BsBarChartLineFill className="inline" /> Data Visualization<br/> (D3, Recharts, Three.js)</div>
         </ul>
     </Card>
 );
