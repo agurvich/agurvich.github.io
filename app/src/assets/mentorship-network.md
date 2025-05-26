@@ -1,12 +1,3 @@
----
-layout: post
-title: "Using graph theory to benefit mentorship: a case study on using data science to impact department climate"
-date: "2023-07-30 10:00:00-06:00"
-description: As one of the leaders of my department's Mentorship Action Team I designed and implemented a framework using network graph theory for optimizing mentor-mentee assignments into a complex hierarchical social network.
-img: mentorship/mentorship.png # Add image post (optional)
-tags: [dataviz, datasci] # add tag
----
-
 In this post, I describe the motivation, context, and execution of the creation of a novel framework for matching mentees and mentors into a comprehensive "mentorship network." 
 If you're just here for the data science/visualization I'd skip to <a href="#building-a-network-graph-theory-approach-to-mentorship">this section. </a>
 

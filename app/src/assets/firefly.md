@@ -1,14 +1,3 @@
----
-layout: post
-title: "Firefly: an interactive dataviz software for millions of datapoints"
-date: "2023-03-16 00:00:00-06:00"
-description: |
-  Firefly is a cutting-edge 3D browser-based, interactive, data visualization software designed for tens of millions of datapoints.
-
-img: four_view_banner.png # Add image post (optional)
-tags: [dataviz,software] # add tag
----
-
 Firefly is a cutting-edge 3D browser-based, interactive, data visualization software designed for tens of millions of datapoints.
 While it was initially developed for visualizing galaxy formation simulation data (my former area of research), Firefly can visualize *any* dataset that can be loaded into three numpy arrays. 
 Firefly visualizations are accessible via a URL with no prior installation needed, making it perfect for easily sharing results and ensures compatibility with almost any operating system or device, including smartphones and tablets.

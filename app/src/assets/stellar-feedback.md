@@ -1,12 +1,3 @@
----
-layout: post
-title: "What is stellar feedback and why should we care?"
-date: "2017"
-description: "Everyone knows about the sun, fewer people know where it came from and how other stars might've influenced its formation.   [pictured: M104, the Sombrero Galaxy (p.c. NASA/HST)] " # Add post description (optional)
-img: sombrero-galaxy.jpeg # Add image post (optional)
-tags: [astronomy] # add tag
----
-
 Most people know about the Sun. 
 It's that big bright yellow thing in the sky that keeps us warm and ocassionally, gives us cancer. 
 A lot of people, though I'm less confident about _most_, know the Sun is just one of many stars in our galaxy (which is, itself, one of many galaxies in our universe). 

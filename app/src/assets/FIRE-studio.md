@@ -1,13 +1,3 @@
----
-layout: post
-title: FIRE Studio
-img: firestudio.png
-tags: [astronomy,dataviz,software]
-date: "2022"
-description: |
-    FIRE studio is a visualization package I created to streamline the process of producing publication-quality images of galaxy formation simulation data. 
----
-
 ## The importance of compelling scientific visualization
 The importance of _compelling_ visualizations in scientific publications cannot be overstated.
 It may not seem obvious at first if you're used to thinking of scientists as machines but they're people too!
