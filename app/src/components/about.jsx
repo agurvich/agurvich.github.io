@@ -72,7 +72,7 @@ const AboutMe = () => (
         <p className="text-lg text-gray-700 flex-1">
             Recently, I've been especially interested in user-facing applications that combine LLMs powered chat-based interfaces and agentic pipelines for retrieving and transforming data.
             To give you an idea of what I mean, one project I've been prototyping is a tool that lets users simulate U.S. presidential election outcomes by modifying real voter registration data with natural language prompts.
-            The goal is to be able to ask questions like: "What if 5% more young men in Texas voted Democrat?" or "What happens if voter turnout among women increases by 15% nationwide?"
+            The goal is to be able to ask questions like: "What if 5% more young men in Texas voted Democrat?" or "What happens if voter turnout among women increased by 15% nationwide?"
             {/*
             Recently, I've been interested in LLM powered chat-based user interfaces and agentic pipelines for retrieving and transforming data.
             For example, a side-project I've been working on is to create an interactive application to explore possible U.S. presidential election outcomes using voter registration data split by demographic and county. 
