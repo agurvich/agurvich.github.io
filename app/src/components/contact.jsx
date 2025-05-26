@@ -57,8 +57,8 @@ function Contact() {
                 <div className="max-w-2xl mx-auto">
                     <h2 className="text-3xl font-semibold text-center mb-6">Contact Me</h2>
                     <div className="text-center">
-                        <p className="text-gray-700 mb-4">
-                            You can reach me via email at <a href="mailto:alex.b.gurvich@gmail.com" className="text-blue-500">alex.b.gurvich@gmail.com</a> or on:
+                        <p className="text-gray-700 mb-4 [&>a]:font-bold [&>a:hover]:underline">
+                            You can reach me via email at <a href="mailto:alex.b.gurvich@gmail.com">alex.b.gurvich@gmail.com</a> or on:
                         </p>
                     </div>
                     <div>
